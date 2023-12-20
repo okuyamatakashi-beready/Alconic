@@ -1,0 +1,67 @@
+@use "config/variables" as v;
+
+
+
+.flex {
+    @include v.flex;
+}
+
+.min_container {
+    @include v.min;
+}
+
+br.sp {
+    display: none;
+}
+br.pc {
+    display: block;
+}
+.pc {
+    display: block;
+}
+.sp {
+    display: none;
+}
+.sp_flex {
+    display: none;
+    @media screen and (max-width: 768px) {
+        display: flex;
+    }
+}
+
+.order_1 {
+    order: 1;
+}
+.order_2 {
+    order: 2;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+
+
+    .pc {
+        display: none!important;
+    }
+    .sp {
+        display: block!important;
+    }
+
+    .order_1 {
+        order: 2;
+    }
+    .order_2 {
+        order: 1;
+    }
+    br.sp {
+        display: block;
+    }
+    .flex_sp {
+
+    }
+
+}
+

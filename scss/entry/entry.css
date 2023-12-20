@@ -1,0 +1,28 @@
+.contact {
+  padding-bottom: clamp(70px, 15rem, 150px);
+}
+.contact .contact_form dl dd input, .contact .contact_form dl dd textarea {
+  background: #fff;
+}
+
+body {
+  background: #F0F0F0;
+}
+
+#footer {
+  background-color: #fff;
+}
+#footer small.copyright {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #footer small.copyright {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  #footer {
+    padding-bottom: 200px;
+    margin-bottom: 0;
+  }
+}/*# sourceMappingURL=entry.css.map */

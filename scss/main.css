@@ -1,0 +1,846 @@
+@charset "UTF-8";
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media screen and (max-width: 768px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+}
+
+.min_container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+br.sp {
+  display: none;
+}
+
+br.pc {
+  display: block;
+}
+
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
+.sp_flex {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .sp_flex {
+    display: flex;
+  }
+}
+
+.order_1 {
+  order: 1;
+}
+
+.order_2 {
+  order: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .pc {
+    display: none !important;
+  }
+  .sp {
+    display: block !important;
+  }
+  .order_1 {
+    order: 2;
+  }
+  .order_2 {
+    order: 1;
+  }
+  br.sp {
+    display: block;
+  }
+}
+.container {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flt_banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 428px;
+  right: 0;
+  margin: auto;
+  z-index: 5000;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .flt_banner {
+    width: 100%;
+  }
+}
+.flt_banner a {
+  width: 50%;
+}
+.flt_banner a img {
+  width: 101%;
+}
+
+.fadeUpTrigger {
+  opacity: 0;
+}
+
+.box {
+  opacity: 0;
+}
+
+.fadeUp {
+  animation-name: fadeUpAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@keyframes fadeUpAnime {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*********************************
+	メインビジュアル
+*********************************/
+#mv {
+  width: 100%;
+  position: relative;
+}
+#mv img {
+  width: 100%;
+}
+#mv .mv_logo {
+  position: absolute;
+  top: 37px;
+  left: 28px;
+  width: 158px;
+}
+#mv .mv_logo img {
+  width: 100%;
+}
+#mv p {
+  position: absolute;
+  font-size: 12px;
+  top: 56px;
+  right: 13px;
+}
+#mv .mv_catch {
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+  width: 100%;
+}
+#mv .mv_catch img {
+  width: 100%;
+}
+#mv .player.player-xl .PlayButton_module_playButtonWrapper__c50ea884, #mv .player.player-xxl .PlayButton_module_playButtonWrapper__c50ea884 {
+  display: none;
+}
+
+.mv_banner {
+  width: 100%;
+}
+.mv_banner img {
+  width: 100%;
+}
+
+.whats_coms img {
+  width: 100%;
+}
+
+/*********************************
+	CATCH
+*********************************/
+#catch .container strong {
+  display: block;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: normal;
+  margin-top: 55px;
+}
+#catch .container p {
+  font-size: 14px;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+#catch .slider_right div img, #catch .slider_left div img {
+  width: 100%;
+}
+
+/*********************************
+	CONCEPT
+*********************************/
+#concept {
+  margin-top: 40px;
+}
+#concept figure.ttl {
+  width: 100%;
+  text-align: center;
+}
+#concept figure.ttl img {
+  width: 170px;
+}
+#concept figure {
+  width: 100%;
+}
+#concept figure img {
+  width: 100%;
+}
+#concept .container .center_content {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#concept .container .center_content > p {
+  font-size: 12px;
+  line-height: 2;
+  margin-top: 25px;
+}
+#concept .container .center_content .concept_ttl {
+  align-items: center;
+  justify-content: flex-start;
+}
+#concept .container .center_content .concept_ttl span {
+  font-family: "baskerville-display-pt", serif;
+  font-size: 30px;
+}
+#concept .container .center_content .concept_ttl p {
+  font-size: 14px;
+}
+#concept .container .left_content {
+  margin-bottom: 50px;
+}
+#concept .container .left_content > p {
+  font-size: 12px;
+  line-height: 2;
+}
+#concept .container .left_content figure {
+  position: relative;
+  width: 95%;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+  #concept .container .left_content figure {
+    width: 95vw;
+    margin-left: calc(50% - 50vw);
+  }
+}
+#concept .container .left_content figure img {
+  margin-bottom: 30px;
+}
+#concept .container .left_content figure figcaption {
+  align-items: center;
+  background: #fff;
+  padding: 0px 15px;
+  position: absolute;
+  right: 0;
+  top: -10px;
+}
+#concept .container .left_content figure figcaption span {
+  font-family: "baskerville-display-pt", serif;
+  font-size: 30px;
+}
+#concept .container .left_content figure figcaption p {
+  font-size: 15px;
+  padding-left: 10px;
+}
+#concept .container .right_content figure {
+  position: relative;
+  width: 95%;
+  box-sizing: border-box;
+  margin-left: auto;
+}
+@media screen and (max-width: 768px) {
+  #concept .container .right_content figure {
+    width: 95vw;
+    margin-right: calc(50% - 50vw);
+  }
+}
+#concept .container .right_content figure figcaption {
+  left: 0;
+  right: auto;
+}
+#concept .container .last_content .concept_ttl span {
+  margin-right: 10px;
+}
+
+/*********************************
+	whats
+*********************************/
+#whats {
+  padding-top: 10px;
+}
+#whats img {
+  width: 100%;
+}
+
+/*********************************
+	talk
+*********************************/
+#talk .container .talk_wrapper {
+  overflow: hidden;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+#talk .container .talk_wrapper figure {
+  margin-bottom: 30px;
+}
+#talk .container .talk_wrapper figure.left {
+  text-align: left;
+}
+#talk .container .talk_wrapper figure.left img {
+  width: auto;
+}
+#talk .container .talk_wrapper figure.right {
+  text-align: right;
+}
+#talk .container .talk_wrapper .talk_box {
+  margin-bottom: 30px;
+  width: auto;
+  display: inline-block;
+}
+#talk .container .talk_wrapper .talk_box span {
+  text-align: right;
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  padding-top: 10px;
+}
+#talk .container .talk_wrapper .content {
+  background: #EEEEEE;
+  box-sizing: border-box;
+  padding: 20px;
+  align-items: flex-start;
+  border-radius: 10px;
+  flex-wrap: nowrap;
+  clear: both;
+  justify-content: space-between;
+}
+#talk .container .talk_wrapper .content img {
+  width: 55px;
+}
+#talk .container .talk_wrapper .content p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #000;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+#talk .container .talk_wrapper .img_box {
+  width: 90%;
+  box-sizing: border-box;
+}
+#talk .container .talk_wrapper .img_box img {
+  width: 100%;
+  border-radius: 10px;
+}
+#talk .container .talk_wrapper .img_box .content {
+  padding: 8px;
+}
+#talk .container .talk_wrapper .img_box_right {
+  margin-left: auto;
+  margin-right: 0;
+  float: right;
+}
+#talk .container .talk_wrapper .left {
+  margin-right: auto;
+}
+#talk .container .talk_wrapper .left p {
+  width: 73%;
+}
+#talk .container .talk_wrapper .right {
+  margin-left: auto;
+}
+#talk .container .talk_wrapper .right p {
+  width: 73%;
+}
+#talk .container .talk_wrapper .no-image {
+  width: 90%;
+}
+#talk .container .talk_wrapper .no-image p {
+  width: 100%;
+}
+#talk .container .talk_wrapper .no-image-right {
+  margin-left: auto;
+  float: right;
+  clear: both;
+}
+
+/*********************************
+	about
+*********************************/
+#about figure.ttl {
+  width: 100%;
+  margin-bottom: 80px;
+}
+#about figure.ttl img {
+  width: 100%;
+}
+#about figure img {
+  width: 100%;
+}
+#about .left_content {
+  margin-bottom: 50px;
+}
+#about .left_content > p {
+  font-size: 12px;
+  line-height: 2;
+}
+#about .left_content figure {
+  position: relative;
+  width: 95%;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+  #about .left_content figure {
+    width: 95vw;
+    margin-left: calc(50% - 50vw);
+  }
+}
+#about .left_content figure img {
+  margin-bottom: 30px;
+}
+#about .left_content figure figcaption {
+  align-items: center;
+  background: #EDEDED;
+  padding: 12px 20px;
+  position: absolute;
+  right: 0%;
+  top: -20px;
+}
+#about .left_content figure figcaption span {
+  font-family: "baskerville-display-pt", serif;
+  font-size: 30px;
+}
+#about .left_content figure figcaption p {
+  font-size: 13px;
+  padding-left: 10px;
+}
+@media screen and (max-width: 786px) {
+  #about .left_content figure figcaption p {
+    font-size: 3.55vw;
+    padding-left: 14px;
+  }
+}
+#about .left_content figure figcaption span.blk {
+  display: block;
+  font-size: 15px;
+  padding-left: 20px;
+}
+#about .left_content figure figcaption p.big {
+  font-size: 60px;
+  font-family: "baskerville-display-pt", serif;
+}
+#about .left_content figure figcaption p.big small {
+  font-size: 15px;
+}
+#about .right_content figure {
+  position: relative;
+  width: 95%;
+  box-sizing: border-box;
+  margin-left: auto;
+}
+@media screen and (max-width: 768px) {
+  #about .right_content figure {
+    width: 95vw;
+    margin-right: calc(50% - 50vw);
+  }
+}
+#about .right_content figure figcaption {
+  left: -6%;
+  right: auto;
+}
+#about .cms_content {
+  margin-top: 110px;
+}
+#about .cms_content figure figcaption {
+  background: #fff;
+  padding: 0 15px;
+  line-height: 1.3;
+  top: -65px;
+  align-items: flex-end;
+}
+#about .cms_content figure figcaption span.sm {
+  font-size: 15px;
+  line-height: 3.5;
+}
+#about .cms_content figure figcaption div {
+  padding-right: 20px;
+}
+#about .cms_content figure figcaption div span.blk {
+  padding-left: 0;
+}
+#about .cms_content figure figcaption div p small {
+  padding-left: 10px;
+}
+
+/*********************************
+	salon
+*********************************/
+h2.sec_ttl {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+h2.sec_ttl span {
+  border-bottom: 1px solid #000;
+  padding-bottom: 8px;
+}
+
+#salon {
+  margin-top: 128px;
+}
+#salon figure img {
+  width: 100%;
+}
+#salon .salon_list {
+  margin-top: 70px;
+}
+#salon .salon_list ul li {
+  width: 46%;
+}
+#salon .salon_list ul li figure {
+  margin-bottom: 15px;
+}
+#salon .salon_list ul li figure img {
+  width: 100%;
+}
+#salon .salon_list ul li b {
+  font-size: 13px;
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+#salon .salon_list ul li p {
+  line-height: 1.5;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+#salon .salon_list ul li p a {
+  color: #000;
+  text-decoration: underline;
+  margin-top: 20px;
+  display: block;
+}
+
+/*********************************
+	people
+*********************************/
+#interview {
+  padding-top: 60px;
+}
+#interview span.ttl {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #4A4A4A;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#interview p.people_text {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 35px;
+  text-align: center;
+}
+#interview ul {
+  flex-wrap: wrap;
+}
+#interview ul li {
+  width: 49.5%;
+  margin-bottom: 30px;
+}
+#interview ul li figure img {
+  width: 100%;
+}
+
+/*********************************
+	RECRUIT
+*********************************/
+#recruit figure.logo {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+#recruit figure.logo img {
+  width: 232px;
+}
+#recruit figure.logo figcaption {
+  text-align: center;
+  font-family: "baskerville-display-pt", serif;
+  display: block;
+  font-size: 26px;
+  color: #4A4A4A;
+  margin-top: 35px;
+}
+#recruit figure.recruit_mv img {
+  width: 100%;
+}
+#recruit .info {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#recruit .info dl {
+  font-size: 14px;
+  font-family: "Hiragino Kaku Gothic ProN";
+  margin-bottom: 5px;
+}
+#recruit .info dl:first-of-type dt {
+  border-right: none;
+}
+#recruit .info dl dt {
+  width: 19%;
+  border-right: 1px solid #000;
+}
+#recruit .info dl dd {
+  width: 80%;
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+#recruit figure.recruit_text img {
+  margin-top: 25px;
+  width: 100%;
+}
+
+#contact {
+  padding-top: 50px;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+#contact figure {
+  text-align: center;
+}
+#contact .contact_container {
+  background: #EFEFEF;
+  padding-top: 55px;
+  padding-bottom: 45px;
+}
+#contact .contact_container .contact_wrapper {
+  width: 320px;
+  margin: auto;
+}
+#contact .contact_container .contact_wrapper h2 {
+  text-align: center;
+}
+#contact .contact_container .contact_wrapper h2 img {
+  width: 193px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#contact .contact_container .contact_wrapper h2 span {
+  display: inline-block;
+  font-size: 11px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#contact .contact_container .contact_wrapper .contact_text {
+  padding-top: 24px;
+}
+#contact .contact_container .contact_wrapper .contact_text p {
+  font-size: 12px;
+  line-height: 1.6;
+  text-align: center;
+}
+#contact .contact_container .contact_wrapper figure {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+#contact .contact_container .contact_wrapper figure img {
+  width: 100%;
+}
+#contact .contact_container .contact_wrapper .contact_line {
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #000;
+}
+#contact .contact_container .contact_wrapper .contact_line p {
+  font-size: 14px;
+  line-height: 1.78;
+  letter-spacing: 0.08;
+  margin-bottom: 8px;
+}
+#contact .contact_container .contact_wrapper .contact_line a {
+  text-align: center;
+}
+#contact .contact_container .contact_wrapper .contact_line a img {
+  width: 72px;
+  margin: auto;
+}
+#contact .contact_container .contact_wrapper .download {
+  margin-top: 25px;
+}
+#contact .contact_container .contact_wrapper .download p {
+  font-size: 14px;
+  line-height: 1.78;
+  letter-spacing: 0.08;
+  margin-bottom: 8px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#contact .contact_container .contact_wrapper .download ul {
+  width: 245px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#contact .contact_container .contact_wrapper .download ul li:nth-child(1) img {
+  width: 105px;
+}
+#contact .contact_container .contact_wrapper .download ul li:nth-child(2) img {
+  width: 116px;
+}
+#contact .contact_form {
+  margin-top: 40px;
+}
+#contact .contact_form h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  text-align: center;
+}
+#contact .contact_form h3 small {
+  display: block;
+  font-size: 10px;
+}
+#contact .contact_form div {
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#contact .contact_form div dl {
+  margin-bottom: 15px;
+}
+#contact .contact_form div dl dt {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+#contact .contact_form div input, #contact .contact_form div textarea {
+  background-color: #F4F4F4;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  font-size: 16px; /* Or any size you want */
+  font-family: inherit; /* Or any font family you want */
+}
+#contact .contact_form div input.send {
+  background-color: #505050;
+  padding: 20px 0;
+  color: #fff;
+  margin-top: 30px;
+}
+#contact .contact_form .wpcf7 .screen-reader-response {
+  width: 1px;
+}
+
+#recruit_store {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+#recruit_store figure {
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+#recruit_store figure img {
+  width: 100%;
+  margin-left: 3%;
+}
+#recruit_store ul {
+  margin-top: 20px;
+}
+#recruit_store ul li {
+  margin-bottom: 13px;
+}
+#recruit_store ul li img {
+  width: 100%;
+}
+
+#company figure img {
+  width: 100%;
+}
+#company p {
+  font-size: 16px;
+  line-height: 2;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#company ul {
+  width: 100%;
+}
+#company ul li {
+  margin-bottom: 10px;
+}
+#company ul li img {
+  width: 100%;
+}
+
+#footer {
+  padding-bottom: 170px;
+  padding-top: 60px;
+  margin-top: 60px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./../images/ft_bg.jpg);
+}
+#footer .ft_logo {
+  margin-bottom: 30px;
+}
+#footer .ft_logo figure {
+  text-align: center;
+}
+#footer .ft_logo figure img {
+  width: 150px;
+}
+#footer ul {
+  border-top: 1px dashed #4A4A4A;
+  margin: auto;
+  width: 320px;
+}
+#footer ul li {
+  border-bottom: 1px dashed #4A4A4A;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+#footer ul li a {
+  color: #4A4A4A;
+}
+#footer ul li a p {
+  font-size: 12px;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+#footer ul li a span {
+  padding-left: 15px;
+}
+#footer figure.ft_bottom {
+  text-align: center;
+  margin-top: 60px;
+}
+#footer figure.ft_bottom img {
+  width: 320px;
+}/*# sourceMappingURL=main.css.map */
