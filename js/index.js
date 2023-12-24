@@ -277,12 +277,29 @@ $(window).on('scroll', function() {
 });
 
 $(document).ready(function(){
+  $('.mv__slider').slick({
+    autoplay: true,
+    arrows: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    cssEase: 'linear',
+    draggable: false,
+    swipe: false,
+    dot: false,
+    touchMove: false,
+    // rtl: true
+  });
+  
+  
+});
+
+$(document).ready(function(){
   $('.slider_right').slick({
     autoplay: true,
     autoplaySpeed: 0, // ここでスライドの速度を調整できます
     infinite: true,
     arrows: false,
-    slidesToShow: 2,
+    slidesToShow: 1.2,
     slidesToScroll: 1,
     cssEase: 'linear',
     speed: 6000,

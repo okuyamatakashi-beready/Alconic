@@ -48,27 +48,28 @@ html {
   font-size: 0.520833vw;
 }
 body {
-  font-family: 'avenir',"fot-tsukumin-pr6n", '游ゴシック', '游ゴシック体',Arial,"Hiragino Sans",Meiryo,sans-serif;
+  font-family: "dnp-shuei-mincho-pr6n","century-old-style-std", '游ゴシック', '游ゴシック体',Arial,"Hiragino Sans",Meiryo,sans-serif;
 	font-size: 100%;
 	line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.2em;
-  color: #333;
+  color: #242424;
 	text-align: justify;
   background-color: #fff;
   position: relative;
+  max-width: 393px;
 }
 
 @media screen and (min-width: 768px) {
   body {
-    font-family: 'avenir','YuGothic', 'Yu Gothic', '游ゴシック', '游ゴシック体',Arial,"Hiragino Sans",Meiryo,sans-serif;
     font-size: 100%;
     line-height: 1.5;
-    max-width: 428px;
+    max-width: 393px;
     background-color: #fff;
     margin: 0 auto;
   }
 }
+
 
 @media screen and (max-width: 768px) {
     body {
