@@ -1,11 +1,20 @@
 <?php include("template/meta.php"); ?>
 <body>
+
+<div id="toggle">
+	<div>
+		<span></span>
+		<span></span>
+	</div>
+</div>
 <div class="flt_banner">
 	<p>是非一度サロン見学にお越しください。</p>
 	<a href="#entry" class="flex">
 		<span class="font__type--mp">お問合せはこちら</span><img src="<?php echo get_template_directory_uri(); ?>/images/arrow.svg" alt="お問い合わせはこちら">
 	</a>
 </div>
+
+
 
 <div id="mv">
 	<div class="mv__inner--content">
@@ -555,7 +564,7 @@
 
 		<div class="voice__wrapper">
 			<div class="voice__content--group">
-				<div class="voice__content voice__content--icon voice__content--left flex">
+				<div class="voice__content voice__content--icon voice__content--left fadeUpTrigger flex">
 					<div class="flex">
 						<figure>
 							<img src="<?php echo get_template_directory_uri(); ?>/images/icon01.png" alt="">
@@ -566,14 +575,14 @@
 						</p>
 					</div>
 				</div>
-				<div class="voice__content voice__content--left">
+				<div class="voice__content voice__content--left fadeUpTrigger">
 					<div>
 						<p>
 							女性でも努力次第でこんなに稼げるんだって証明していきたい！
 						</p>
 					</div>
 				</div>
-				<div class="voice__content voice__content--img voice__content--left">
+				<div class="voice__content voice__content--img voice__content--left fadeUpTrigger">
 					<div>
 						<figure>
 							<img src="<?php echo get_template_directory_uri(); ?>/images/voice_img01.png" alt="">
@@ -585,7 +594,7 @@
 			<!-- //voice__content--group -->
 
 			<div class="voice__content--group">
-				<div class="voice__content voice__content--icon voice__content--right">
+				<div class="voice__content voice__content--icon voice__content--right fadeUpTrigger">
 					<div class="flex">
 						
 						<p>
@@ -603,7 +612,7 @@
 			<!-- //voice__content--group -->
 
 			<div class="voice__content--group">
-				<div class="voice__content voice__content--icon voice__content--left flex">
+				<div class="voice__content voice__content--icon voice__content--left fadeUpTrigger flex">
 					<div class="flex">
 						<figure>
 							<img src="<?php echo get_template_directory_uri(); ?>/images/icon03.png" alt="">
@@ -613,7 +622,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="voice__content voice__content--img voice__content--left">
+				<div class="voice__content voice__content--img voice__content--left fadeUpTrigger">
 					<div>
 						<figure>
 							<img src="<?php echo get_template_directory_uri(); ?>/images/voice_img02.png" alt="">
@@ -625,7 +634,7 @@
 			<!-- //voice__content--group -->
 
 			<div class="voice__content--group">
-				<div class="voice__content voice__content--icon voice__content--right">
+				<div class="voice__content voice__content--icon voice__content--right fadeUpTrigger">
 					<div class="flex">
 						
 						<p>
@@ -637,7 +646,7 @@
 					</div>
 				</div>
 
-				<div class="voice__content voice__content--right">
+				<div class="voice__content voice__content--right fadeUpTrigger">
 					<div>
 						<p>
 						柔軟な働き方ができるので、今まで時間がなくて諦めていたことにも挑戦できるようになりました
@@ -650,7 +659,7 @@
 			<!-- //voice__content--group -->
 
 			<div class="voice__content--group">
-				<div class="voice__content voice__content--icon voice__content--left flex">
+				<div class="voice__content voice__content--icon voice__content--left fadeUpTrigger flex">
 					<div class="flex">
 						<figure>
 							<img src="<?php echo get_template_directory_uri(); ?>/images/icon05.png" alt="">
@@ -660,7 +669,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="voice__content voice__content--left">
+				<div class="voice__content voice__content--left fadeUpTrigger">
 					<div>
 						<p>でも、保証給があったので一歩踏み出せました！</p>
 					</div>
@@ -670,7 +679,7 @@
 			<!-- //voice__content--group -->
 
 			<div class="voice__content--group">
-				<div class="voice__content voice__content--icon voice__content--right">
+				<div class="voice__content voice__content--icon voice__content--right fadeUpTrigger">
 					<div class="flex">
 						<p>
 						技術や売上げだけでなく人間性も大切にしている会社です。
@@ -681,7 +690,7 @@
 					</div>
 				</div>
 
-				<div class="voice__content voice__content--right">
+				<div class="voice__content voice__content--right fadeUpTrigger">
 					<div>
 						<p>
 						金銭的にも時間的にも余裕ができてプライベートも充実しています！
@@ -689,7 +698,7 @@
 					</div>
 				</div>
 
-				<div class="voice__content voice__content--img voice__content--img--right voice__content--right">
+				<div class="voice__content voice__content--img voice__content--img--right voice__content--right fadeUpTrigger">
 					<div>
 						<figure>
 							<img src="<?php echo get_template_directory_uri(); ?>/images/voice_img03.png" alt="">
@@ -702,7 +711,7 @@
 			<!-- //voice__content--group -->
 
 			<div class="voice__content--group">
-				<div class="voice__content voice__content--icon voice__content--left flex">
+				<div class="voice__content voice__content--icon voice__content--left fadeUpTrigger flex">
 					<div class="flex">
 						<figure>
 							<img src="<?php echo get_template_directory_uri(); ?>/images/icon07.png" alt="">
@@ -712,7 +721,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="voice__content voice__content--img voice__content--img--left voice__content--left">
+				<div class="voice__content voice__content--img voice__content--img--left voice__content--left fadeUpTrigger">
 					<div>
 						<figure>
 							<img src="<?php echo get_template_directory_uri(); ?>/images/voice_img04.png" alt="">
@@ -726,195 +735,140 @@
 	</div>
 </section>
 
-<section id="coms_people">
+<div id="interview">
 	<h2>
 		<p class="container">
 			COMS<br>
 			PEOPLE<br>
-			VOICE<br>
+			VOICE
 			<span>コムズで働く人</span>
 		</p>
 	</h2>
 
 	<div class="people__content">
-		<p class="container">コムズに入社したことで何が変わって、何が叶ったのか。そんな事を紐解くスタッフインタビューです。</p>
+		<p class="container">コムズに入社したことで何が変わって、何が<br>叶ったのか。そんな事を紐解くスタッフイン<br>タビューです。</p>
 	</div>
 
 	<div class="people__wrapper container">
-		
+		<div class="people__interview--content">
+			<a href="" target="_blank" class="fadeUpTrigger">
+				<figure>
+					<img src="<?php echo get_template_directory_uri(); ?>/images/people01.png" alt="">
+					<figcaption>
+						<small>2021年入社</small><br>
+						<span>AIconic</span><br>
+						<small>トップスタイリスト</small><br>
+						<p>山野井 千鶴</p>
+					</figcaption>
+				</figure>
+				<div class="people__interview--write">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/people01_written.svg" alt="">
+				</div>
+			</a>
+		</div>
+		<div class="people__interview--content">
+			<a href="" target="_blank" class="fadeUpTrigger">
+				<figure>
+					<img src="<?php echo get_template_directory_uri(); ?>/images/people02.png" alt="">
+					<figcaption>
+						<small>2021年入社</small><br>
+						<span>AMANDOR</span><br>
+						<small>スタイリスト</small><br>
+						<p>奥村 真歩</p>
+					</figcaption>
+				</figure>
+				<div class="people__interview--write">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/people02_written.svg" alt="">
+				</div>
+			</a>
+		</div>
+		<div class="people__interview--content">
+			<a href="" target="_blank" class="fadeUpTrigger">
+				<figure>
+					<img src="<?php echo get_template_directory_uri(); ?>/images/people03.png" alt="">
+					<figcaption>
+						<small>2019年入社</small><br>
+						<span>AMANDOR</span><br>
+						<small>スタイリスト</small><br>
+						<p>石川 麻衣</p>
+					</figcaption>
+				</figure>
+				<div class="people__interview--write">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/people03_written.svg" alt="">
+				</div>
+			</a>
+		</div>
+		<div class="people__interview--content">
+			<a href="" target="_blank" class="fadeUpTrigger">
+				<figure>
+					<img src="<?php echo get_template_directory_uri(); ?>/images/people04.png" alt="">
+					<figcaption>
+						<small>2013年入社</small><br>
+						<span>THE OSCAR</span><br>
+						<small>ディレクター</small><br>
+						<p>馬渡 由季子</p>
+					</figcaption>
+				</figure>
+				<div class="people__interview--write">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/people04_written.svg" alt="">
+				</div>
+			</a>
+		</div>
+		<div class="people__interview--content">
+			<a href="" target="_blank" class="fadeUpTrigger">
+				<figure>
+					<img src="<?php echo get_template_directory_uri(); ?>/images/people05.png" alt="">
+					<figcaption>
+						<small>2017年入社</small><br>
+						<span>By Eight</span><br>
+						<small>スタイリスト</small><br>
+						<p>横井 小百合</p>
+					</figcaption>
+				</figure>
+				<div class="people__interview--write">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/people05_written.svg" alt="">
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+
+<section class="contact contact--second">
+	<h2>
+		<p>contact us</p>
+		<span>お問い合わせについて</span>
+	</h2>
+	<figure>
+		<img src="<?php echo get_template_directory_uri(); ?>/images/contact_bg.jpg" alt="">
+	</figure>
+
+	<div class="container">
+		<div class="contact__wrapper">
+			<p class="content__text">
+				もし、このWEBサイトを見て、少しでも気になった方、これからの美容師としての将来を悩んでいる方、色々見て比べたいと考えている方、大歓迎です。まずはサロン見学にお越しください！「一度話を聞いてみよう。」そんな気持ちで大丈夫です。是非お気軽に、お問合せしやすい方法でご連絡ください。
+			</p>
+
+			<a href="" class="contact__btn contact__btn--line">
+				<span>LINE</span>
+				<span>ラインでお問合せ</span>
+			</a>
+			<a href="" class="contact__btn contact__btn--mail">
+				<span>MAIL</span>
+				<span>メールでお問合せ</span>
+			</a>
+			<a href="" class="contact__btn contact__btn--insta">
+				<span>Instagram</span>
+				<span>インスタでお問合せ</span>
+			</a>
+		</div>
 	</div>
 </section>
 
 
-
-<div id="interview">
-	<div class="container">
-		<span class="ttl fadeUpTrigger">COMS PEOPLE</span>
-		<h2 class="sec_ttl fadeUpTrigger">
-			<span>コムズで働く人</span>
-		</h2>
-
-		<p class="people_text fadeUpTrigger">
-			コムズに入社したことで何が変わって、何が叶ったのか。<br>
-			そんな事を紐解くスタッフインタビューです。
-		</p>
-
-		<ul class="flex delayScroll">
-			<li class="box">
-				<figure>
-					<a href="https://comsgroup.co.jp/people/山野井千鶴/" target="_blank">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/people01.png" alt="">
-					</a>
-				</figure>
-			</li>
-			<li class="box">
-				<figure>
-					<a href="https://comsgroup.co.jp/people/横井小百合/" target="_blank">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/people02.png" alt="">
-					</a>
-				</figure>
-			</li>
-			<li class="box">
-				<figure>
-					<a href="https://comsgroup.co.jp/people/奥村真歩/" target="_blank">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/people03.png" alt="">
-					</a>
-				</figure>
-			</li>
-			<li class="box">
-				<figure>
-					<a href="https://comsgroup.co.jp/people/石川麻衣/" target="_blank">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/people04.png" alt="">
-					</a>
-				</figure>
-			</li>
-			<li class="box">
-				<figure>
-					<a href="https://comsgroup.co.jp/people/馬渡由季子/" target="_blank">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/people05.png" alt="">
-					</a>
-				</figure>
-			</li>
-		</ul>
-	</div>
-</div>
-
-<div id="recruit">
-	<figure class="logo fadeUpTrigger">
-		<img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="COMS">
-		<figcaption>RECRUIT INFORMATION</figcaption>
-	</figure>
-	<figure class="recruit_mv fadeUpTrigger">
-		<img src="<?php echo get_template_directory_uri(); ?>/images/recruit_mv.jpg" alt="COMS">
-	</figure>
-
-	<div class="info container">
-		<dl class="flex fadeUpTrigger">
-			<dt>職種</dt>
-			<dd>スタイリスト</dd>
-		</dl>
-		<dl class="flex fadeUpTrigger">
-			<dt>雇用形態</dt>
-			<dd>業務委託契約</dd>
-		</dl>
-		<dl class="flex fadeUpTrigger">
-			<dt>勤務時間</dt>
-			<dd>10:00〜22:00(実働時間4.5時間～)</dd>
-		</dl>
-		<dl class="flex fadeUpTrigger">
-			<dt>応募資格</dt>
-			<dd>要・美容師免許</dd>
-		</dl>
-		<dl class="flex fadeUpTrigger">
-			<dt>休日休暇</dt>
-			<dd>月8日(シフト制)／夏季／冬期休暇有り</dd>
-		</dl>
-		<dl class="flex fadeUpTrigger">
-			<dt>勤務地</dt>
-			<dd>
-				hairlogy coms<br>
-				愛知県名古屋市中村区名駅<br>
-				４丁目１０番２５号　ＩＭＡＩビル２Ｆ
-			</dd>
-		</dl>
-		<dl class="flex fadeUpTrigger">
-			<dt>最寄駅</dt>
-			<dd>各線　名古屋駅</dd>
-		</dl>
-	</div>
-
-	<figure class="recruit_mv fadeUpTrigger">
-		<img src="<?php echo get_template_directory_uri(); ?>/images/recruit_img.jpg" alt="COMS">
-	</figure>
-
-	<figure class="recruit_text fadeUpTrigger">
-		<img src="<?php echo get_template_directory_uri(); ?>/images/recruit_text.svg" alt="COMS">
-	</figure>
-
-
-</div>
-
 <div id="contact">
-	<div class="container contact_container">
-		<div class="contact_wrapper">
-			<h2>
-				<img src="<?php echo get_template_directory_uri(); ?>/images/contactus.svg" alt="CONTACT US">
-				<span>お問い合わせ</span>
-			</h2>
-
-			<div class="contact_text">
-				<p>
-					COMS GROUPの求人に関するご質問<br>
-					お問い合わせ・サロン見学のご希望等は<br>
-					LINE公式アカウントを友達追加して<br>
-					お気軽にお問い合わせください。<br>
-					もしくは、下記のお問い合わせフォームより<br>
-					ご連絡ください。<br>
-					担当者より折り返しご連絡させていただきます。
-				</p>
-			</div>
-
-			<figure>
-				<img src="<?php echo get_template_directory_uri(); ?>/images/contact_img.png" alt="CONTACT US">
-			</figure>
-
-			<div class="contact_line">
-				<p>
-					COMS公式LINEアカウント<br>
-					お友達追加はコチラ
-				</p>
-
-				<a href="https://lin.ee/9ESsBTk" target="_blank">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/line_icon.svg" alt="CONTACT US">
-				</a>
-			</div>
-
-			<div class="download">
-				<p>
-					LINEアカウントをお持ちでない方は<br>
-					コチラからダウンロードいただけます。
-				</p>
-
-				<ul class="flex">
-					<li>
-						<a href="https://apps.apple.com/jp/app/line/id443904275" target="_blank">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/appstore.png" alt="">
-						</a>
-					</li>
-					<li>
-						<a href="https://play.google.com/store/apps/details?id=jp.naver.line.android&hl=ja&gl=US&pli=1" target="_blank">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/googleplay.png" alt="">
-						</a>
-					</li>
-				</ul>
-			</div>
-			<!-- //download -->
-		</div>
-		<!-- //contact_wrapper -->
-	</div>
 
 	<div id="entry" class="contact_form container">
-		<h3 class="fadeUpTrigger">フォームからのお問い合わせ<small>※の項目は必須入力項目です。</small></h3>
 
 		<?php echo do_shortcode('[contact-form-7 id="874" title="COMSお問い合わせフォーム"]'); ?>
 		<!-- <div>
@@ -942,226 +896,95 @@
 			[submit class:send "送信&nbsp;&nbsp;&nbsp;"]
 		</div> -->
 
-		<figure class="fadeUpTrigger">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/tel.svg" alt="COMS">
-		</figure>
 	</div>
 </div>
 
-<!-- <div id="salon">
-	<div class="container">
-		<figure class="fadeUpTrigger">
-			<img src="</?php echo get_template_directory_uri(); ?>/images/salon.jpg" alt="">
-		</figure>
+<div class="tel__wrapeer container">
+	<a href="tel:0524855433">
+		<img src="<?php echo get_template_directory_uri(); ?>/images/tel_banner.png" alt="">
+	</a>
 
-		<div class="salon_list">
-			<h2 class="sec_ttl"><span>コムズグループ直営店</span></h2>
-
-			<ul class="flex delayScroll">
-				<li class="box">
-					<figure>
-						<img src="</?php echo get_template_directory_uri(); ?>/images/salon01.png" alt="">
-					</figure>
-					<b>By Eight 名駅</b>
-					<p>
-					愛知県名古屋市中村区<br>
-					名駅3丁目12-14<br>
-					今井ビル1F<br>
-					<a href="">[GoogleMap]</a>
-					</p>
-
-					<p>
-						Tel. 052-541-1688<br>
-						Open. 10:00～22:00
-					</p>
-				</li>
-				<li class="box">
-					<figure>
-						<img src="</?php echo get_template_directory_uri(); ?>/images/salon02.png" alt="">
-					</figure>
-					<b>THE OSCAR</b>
-					<p>
-					愛知県名古屋市西区牛島<br>
-					町6-24アクロスキューブ<br>
-					NAGOYA 4F<br>
-					<a href="">[GoogleMap]</a>
-					</p>
-
-					<p>
-					Tel. 052-583-6100<br>
-					Open. 10:00～22:00	
-					</p>
-				</li>
-				<li class="box">
-					<figure>
-						<img src="</?php echo get_template_directory_uri(); ?>/images/salon03.png" alt="">
-					</figure>
-					<b>Rue D’or 名古屋</b>
-					<p>
-					愛知県名古屋市中村区<br>
-					名駅4-1-3<br>
-					クリスタルMAビル 3F<br>
-					<a href="">[GoogleMap]</a>
-					</p>
-
-					<p>
-						Tel. 052-564-8750<br>
-						Open. 9:00～22:00
-					</p>
-				</li>
-				<li class="box">
-					<figure>
-						<img src="</?php echo get_template_directory_uri(); ?>/images/salon04.png" alt="">
-					</figure>
-					<b>AMAN D’OR</b>
-					<p>
-						愛知県名古屋市中村区<br>
-						名駅2丁目36-10<br>
-						松岡第二ビル 1F <br>
-					<a href="">[GoogleMap]</a>
-					</p>
-
-					<p>
-						Tel. 052-561-4577
-						Open. 10:00～22:00
-					</p>
-				</li>
-				<li class="box">
-					<figure>
-						<img src="</?php echo get_template_directory_uri(); ?>/images/salon05.png" alt="">
-					</figure>
-					<b>AMANI.HAIR<br>HOSPITAL</b>
-					<p>
-					愛知県名古屋市中村区<br>
-					名駅2-45-10<br>
-					川島ビル 3F <br>
-					<a href="">[GoogleMap]</a>
-					</p>
-
-					<p>
-					Tel. 052-533-2612<br>
-					Open. 10:00～21:00
-					</p>
-				</li>
-				<li class="box">
-					<figure>
-						<img src="<?php echo get_template_directory_uri(); ?>/images/salon06.png" alt="">
-					</figure>
-					<b>ツメトトノウ</b>
-					<p>
-					愛知県名古屋市中村区<br>
-					名駅4-1-3<br>
-					クリスタルMAビル 3F<br>
-					<a href="">[GoogleMap]</a>
-					</p>
-
-					<p>
-						Tel. 052-564-8750<br>
-						Open. 9:00～22:00
-					</p>
-				</li>
-			</ul>
-		</div>
+	<div class="tel__content">
+		<a href="tel:0524855433"><span>052-485-5433</span></a>
+		<dl class="flex">
+			<dt>採用担当：</dt>
+			<dd>アイコニック　早川宛</dd>
+		</dl>
+		<dl class="flex">
+			<dt>(受付時間)</dt>
+			<dd>10:00 - 22:00</dd>
+		</dl>
 	</div>
-</div> -->
 
-
-
-
-
-
-
-<div id="recruit_store">
-	<div class="container">
-
-
-		<ul>
-			<li class="fadeUpTrigger">
-				<a href="#entry">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/entry_banner.svg" alt="COMS">
-				</a>
-			</li>
-			<li class="fadeUpTrigger">
-				<a href="">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/contact_banner.svg" alt="COMS">
-				</a>
-			</li>
-		</ul>
-	</div>
+	<p>
+		美容師として、人として<br>
+		幸せな人生を一緒に送りましょう。<br>
+		コムズグループは<br>
+		あなたの夢を叶えます。
+	</p>
 </div>
-
-<div id="company">
-	<div class="container">
-		<figure class="fadeUpTrigger">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/company.jpg" alt="COMS">
-		</figure>
-
-		<p>
-			美容師として、人として<br>
-			幸せな人生を一緒に送りましょう。<br>
-			コムズグループは<br>
-			あなたの夢を叶えます。
-		</p>
-
-		<ul>
-			<li class="fadeUpTrigger">
-				<a href="#entry">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/entry_banner.svg" alt="COMS">
-				</a>
-			</li>
-			<li class="fadeUpTrigger">
-				<a href="">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/contact_banner.svg" alt="COMS">
-				</a>
-			</li>
-		</ul>
-	</div>
-</div>
-
 
 
 <footer id="footer" class="bg">
-	<div class="ft_logo">
-		<figure>
-			<img src="<?php echo get_template_directory_uri(); ?>/images/ft_logo.svg" alt="COMS">
-		</figure>
+	<div class="footer__intro">
+		<p class="footer__catch">
+			夢を語れる。<br>
+			もう一度、<br>
+			そんなサロンで働く。
+		</p>
+		<div class="footer__name flex">
+			<div class="footer__name--logo">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/footer_logo.svg" alt="">
+			</div>
+			<div class="footer__name--info">
+				<p>
+				COMS group RECRUIT SITE<br><span class="font__type--mp">〒451-0045　愛知県 名古屋市西区名駅2-24-9</span>
+				</p>
+			</div>
+		</div>
 	</div>
 
 	<ul>
 		<li>
 			<a href="#mv" class="flex">
-				<p>〉<span>PAGE TOP</span></p>
+				<p>〉<span>TOP</span></p>
 				<p>ページトップ</p>
 			</a>
 		</li>
 		<li>
 			<a href="#about" class="flex">
-				<p>〉<span>about COMS</span></p>
-				<p>コムズグループについて</p>
+				<p>〉<span>MESSAGE</span></p>
+				<p>リクルートメッセージ</p>
 			</a>
 		</li>
 		<li>
 			<a href="#whats" class="flex">
-				<p>〉<span>SALON</span></p>
-				<p>サロン紹介</p>
+				<p>〉<span>ABOUT</span></p>
+				<p>アイコニックとは</p>
 			</a>
 		</li>
 		<li>
 			<a href="#interview" class="flex">
-				<p>〉<span>INTERVIEW</span></p>
-				<p>スタッフインタビュー</p>
+				<p>〉<span>WHAT’S AIconic?</span></p>
+				<p>アイコニックの特徴</p>
 			</a>
 		</li>
 		<li>
 			<a href="#recruit" class="flex">
-				<p>〉<span>RECRUIT info</span></p>
+				<p>〉<span>COMS PEOPLE VOICE</span></p>
 				<p>リクルート情報</p>
 			</a>
 		</li>
 		<li>
 			<a href="#entry" class="flex">
 				<p>〉<span>CONTACT us</span></p>
-				<p>お問い合わせ</p>
+				<p>コムズで働く人</p>
+			</a>
+		</li>
+		<li>
+			<a href="#company" class="flex">
+				<p>〉<span>RECRUIT</span></p>
+				<p>募集要項</p>
 			</a>
 		</li>
 		<li>
@@ -1170,11 +993,29 @@
 				<p>運営会社</p>
 			</a>
 		</li>
+		<li>
+			<a href="#company" class="flex">
+				<p>〉<span>SALON</span></p>
+				<p>コムズグループ直営店</p>
+			</a>
+		</li>
+		<li>
+			<a href="#company" class="flex">
+				<p>〉<span>STAFF VOICE</span></p>
+				<p>働くスタッフたちの声</p>
+			</a>
+		</li>
+		<li>
+			<a href="#company" class="flex">
+				<p>〉<span>CONTACT US</span></p>
+				<p>お問い合わせについて</p>
+			</a>
+		</li>
 	</ul>
 
-	<figure class="ft_bottom">
-		<img src="<?php echo get_template_directory_uri(); ?>/images/ft_bottom.svg" alt="COMS">
-	</figure>
+	<div class="ft_bottom">
+		<small class="copyright">Copyright © COMS GROUP all rights reserved.</small>
+	</div>
 </footer>
 
 

@@ -48,9 +48,9 @@
 			})(document);
 		</script>
 
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Chonburi&family=M+PLUS+1p:wght@400;800&family=Manrope:wght@200;400&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&family=Kumbh+Sans&family=M+PLUS+1p:wght@400;800&family=Manrope:wght@200;400&family=Montserrat:wght@400;600;700&family=Noto+Sans+JP&display=swap" rel="stylesheet">
 		
 		
 
