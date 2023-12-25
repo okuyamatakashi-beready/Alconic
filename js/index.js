@@ -122,136 +122,11 @@ $('.garally_modal_open').on('click', function() {
 });
 });
 
-$(document).ready(function() {
-  $('.garally_modal p').on('click', function() {
-      $('.garally_modal').fadeOut();
-      $("body").removeClass("no_scroll");
-  });
-});
-
 
 /*********************************
 	staff interview modal
 *********************************/
 
-
-
-$(function () {
-  $('.post-open').click(function () {
-      $("body").addClass('no_scroll');
-      var id = $(this).data('id');
-      $('#overlay, #top #modal_contents .modal-window .modal_post[data-id="modal' + id + '"],#topics #modal_contents .modal-window .modal_post[data-id="modal' + id + '"]').fadeIn().css('display','block');
-  });//非表示にしているモーダルを表示する
-      
-  $('.post-close').click(function () {
-      $("body").removeClass("no_scroll");
-      $('#overlay,#top #modal_contents .modal-window .modal_post,#topics #modal_contents .modal-window .modal_post').fadeOut();
-  });//表示押されたモーダルを非表示にする
-});
-
-
-$(function () {
-  $('.post-open').click(function () {
-      $("body").addClass('no_scroll');
-      var id = $(this).data('id');
-      $('#overlay, #top #modal_contents .modal-window .modal_post[data-id="modal' + id + '"]').fadeIn().css('display','block');
-  });//非表示にしているモーダルを表示する
-      
-  $('.post-close').click(function () {
-      $("body").removeClass("no_scroll");
-      $('#overlay,#top #modal_contents .modal-window .modal_post').fadeOut();
-  });//表示押されたモーダルを非表示にする
-});
-
-$(function(){
-  $('#topics #modal_contents .modal-window .modal_post').each(function(i){
-      $(this).attr('data-id','modal' + (i+1));
-  });
-});
-//表示したいモーダルを入力
-$(function(){
-  $('#top #modal_contents .modal-window .modal_post').each(function(i){
-      $(this).attr('data-id','modal' + (i+1));
-  });
-});
-//表示したいモーダルを入力
-$(function(){
-  $('#top .top_topics .top_post').each(function(i){
-      $(this).attr('data-id', + (i+1));
-  });
-});
-//クリックしてモーダルを表示させるものを入力
-$(function(){
-  $('#topics .topics_wrap dl').each(function(i){
-      $(this).attr('data-id', + (i+1));
-  });
-});
-//クリックしてモーダルを表示させるものを入力
-
-$(function () {
-  $('.js-open').click(function () {
-      $("body").addClass('no_scroll');
-      var id = $(this).data('id-voice');
-      $('#overlay_voice, #voice #modal_contents .modal-window .modal_post[data-id-voice="modal' + id + '"]').fadeIn().css('display','block');
-  });
-      
-  $('.js-close').click(function () {
-      $("body").removeClass("no_scroll");
-      $('#overlay_voice,#voice #modal_contents .modal-window .modal_post').fadeOut();
-  });
-});
-
-$(function(){
-  $('#voice #modal_contents .modal-window .modal_post').each(function(i){
-      $(this).attr('data-id-voice','modal' + (i+1));
-  });
-});
-$(function(){
-  $('#voice .staff_slider .staff_slide .open').each(function(i){
-      $(this).attr('data-id-voice', + (i+1));
-  });
-});
-
-
-
-$(document).ready(function(){
-  $(".contents_sample").click(function(){
-    $(this).find("dd").slideToggle();
-    $(this).find("dt img").toggleClass("rotate");
-  });
-});
-
-
-// $('#fullpage').fullpage({  
-//   anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7'], // ページのアンカー名を指定  
-//   menu: '#global-menu', // グローバルメニューのID名  
-//   scrollOverflow: true, //全画面よりコンテンツが多い場合スクロールバーを出すかどうか  
-//   loopHorizontal:false, //横スライダーをループさせない  
-//   touchSensitivity: 16, //タッチデバイスでのセクション切替の強さの閾値  
-//   afterLoad: function (anchorLink, index) {  
-//    //セクションが読み込み終わりのイベント  
-//    if (index === 1) {  
-//     //TOPロード時  
-     
-//    }else if(index === $('#fullpage .section').length){  
-//     //最下ページ時  
-//    }else{  
-//     //その他のページの時  
-//    }  
-//   },  
-//   afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {  
-//     // スライドが読み込み終わった後のイベント  
-//   },  
-//   onLeave: function (index, nextIndex, direction) {  
-//     // セクションを離れた時のイベント  
-//   },  
-//   onSlideLeave: function (anchorLink, index, slideIndex, direction, nextSlideIndex) {  
-//     // スライドを離れた時のイベント  
-//   },  
-//   afterResize: function () {  
-//    // リサイズ後のイベント  
-//  }  
-// }); 
 
 
 
@@ -331,7 +206,12 @@ $('.slider_left').slick({
 
 
 
-
+$('#toggle').on('click',function(){
+	$('body').toggleClass('open');
+});
+$('.navigation .navigation__wrapper .navigation__content ul li a').on('click',function(){
+	$('body').removeClass('open');
+});
 
 
 

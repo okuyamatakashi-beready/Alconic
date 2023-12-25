@@ -7,6 +7,82 @@
 		<span></span>
 	</div>
 </div>
+
+<nav class="navigation">
+	<div class="navigation__wrapper">
+		<div class="navigation__content">
+			<strong>
+				AIconic nagoya<br>
+				RECRUITING STAFF
+			</strong>
+
+			<ul>
+				<li>
+					<a href="#mv">
+						TOP
+						<span>ページトップ</span>
+					</a>
+				</li>
+				<li>
+					<a href="#message">
+						MESSAGE
+						<span>リクルートメッセージ</span>
+					</a>
+				</li>
+				<li>
+					<a href="#about">
+						ABOUT
+						<span>アイコニックとは</span>
+					</a>
+				</li>
+				<li>
+					<a href="#strong">
+						WHAT’S AIconic?
+						<span>アイコニックの特徴</span>
+					</a>
+				</li>
+				<li>
+					<a href="#interview">
+						COMS PEOPLE VOICE
+						<span>コムズで働く人</span>
+					</a>
+				</li>
+				<li>
+					<a href="#recruit">
+						RECRUIT
+						<span>募集要項</span>
+					</a>
+				</li>
+				<li>
+					<a href="#company">
+						COMPANY
+						<span>運営会社</span>
+					</a>
+				</li>
+				<li>
+					<a href="#salon">
+						SALON
+						<span>コムズグループ直営店</span>
+					</a>
+				</li>
+				<li>
+					<a href="#voice">
+						STAFF VOICE
+						<span>働くスタッフたちの声</span>
+					</a>
+				</li>
+			</ul>
+
+			<a href="#contact" class="contact_btn">
+				CONTACT US<br>
+				<span>お問い合わせについて</span>
+			</a>
+
+			
+		</div>
+		<small>Copyright © COMS GROUP all rights reserved.</small>
+	</div>
+</nav>
 <div class="flt_banner">
 	<p>是非一度サロン見学にお越しください。</p>
 	<a href="#entry" class="flex">
@@ -51,12 +127,12 @@
 		</div>
 	</div>
 
-	<div class="message__logo">
+	<div class="message__logo fadeUpTrigger">
 		<img src="<?php echo get_template_directory_uri(); ?>/images/logo_blk.svg" alt="" class="">
 	</div>
 
 	<div class="container">
-		<h2 class="sec__ttl">
+		<h2 class="sec__ttl fadeUpTrigger">
 			<span>Message</span>
 			<p>
 				年齢を重ねた女性が<br>
@@ -64,7 +140,7 @@
 			</p>
 		</h2>
 
-		<p class="content__text">
+		<p class="content__text fadeUpTrigger">
 			いくつになっても、「綺麗でありたい」<br>
 			という気持ちに制限はいらない。<br>
 			大人女性のお悩みに寄り添いながら、<br>
@@ -79,7 +155,7 @@
 	</div>
 
 	<figure>
-		<img src="<?php echo get_template_directory_uri(); ?>/images/message_img.png" alt="">
+		<img src="<?php echo get_template_directory_uri(); ?>/images/message_img.png" alt="" class="fadeUpTrigger">
 		<figcaption>
 			Beauty salon for<br>
 			aged lovely women.
@@ -90,7 +166,7 @@
 
 <section id="about">
 	<div class="container">
-		<h2 class="sec__ttl">
+		<h2 class="sec__ttl fadeUpTrigger">
 			<span>about<br>AIconic</span>
 			<p>
 			AIconic(アイコニック)とは
@@ -98,14 +174,14 @@
 		</h2>
 
 		<div class="about__content about__content--center">
-			<figure>
+			<figure class="fadeUpTrigger">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/about_img01." alt="">
 			</figure>
-			<div class="about__cotent--ttl">
+			<div class="about__cotent--ttl fadeUpTrigger">
 				<p>お客様と共に<br>年齢を重ねていける美容師へ</p>
 			</div>
 
-			<p class="content__text">
+			<p class="content__text fadeUpTrigger">
 			休みが少ない、残業が多い、給料は少ない。<br>
 			美容師は若いうちにしかできない仕事。<br>
 			そうやって好きな仕事から泣く泣く離れていく美容師は少なくありません。<br>
@@ -116,7 +192,7 @@
 		</div>
 	</div>
 
-	<div class="about__content about__content--imgbox about__content--right">
+	<div class="about__content about__content--imgbox about__content--right fadeUpTrigger">
 		<figure>
 			<img src="<?php echo get_template_directory_uri(); ?>/images/about_img02.jpg" alt="">
 			<figcaption>
@@ -132,7 +208,7 @@
 		</div>
 	</div>
 
-	<div class="about__content about__content--imgbox about__content--left">
+	<div class="about__content about__content--imgbox about__content--left fadeUpTrigger">
 		<figure>
 			<img src="<?php echo get_template_directory_uri(); ?>/images/about_img03.jpg" alt="">
 			<figcaption>
@@ -147,7 +223,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="about__content about__content--imgbox about__content--right">
+	<div class="about__content about__content--imgbox about__content--right fadeUpTrigger">
 		<figure>
 			<img src="<?php echo get_template_directory_uri(); ?>/images/about_img03.jpg" alt="">
 			<figcaption>
@@ -163,7 +239,7 @@
 		</div>
 	</div>
 
-	<div class="about__content about__content--imgbox about__content--left">
+	<div class="about__content about__content--imgbox about__content--left fadeUpTrigger">
 		<figure>
 			<img src="<?php echo get_template_directory_uri(); ?>/images/about_img04.jpg" alt="">
 			<figcaption class="nospan">
@@ -179,7 +255,7 @@
 		</div>
 	</div>
 
-	<div class="about__content about__content--imgbox about__content--right">
+	<div class="about__content about__content--imgbox about__content--right fadeUpTrigger">
 		<figure>
 			<img src="<?php echo get_template_directory_uri(); ?>/images/about_img05.jpg" alt="">
 			<figcaption class="nospan">
@@ -197,16 +273,16 @@
 </section>
 
 <section class="contact">
-	<h2>
+	<h2 class="fadeUpTrigger">
 		<p>contact us</p>
 		<span>お問い合わせについて</span>
 	</h2>
-	<figure>
+	<figure class="fadeUpTrigger">
 		<img src="<?php echo get_template_directory_uri(); ?>/images/contact_bg.jpg" alt="">
 	</figure>
 
 	<div class="container">
-		<div class="contact__wrapper">
+		<div class="contact__wrapper fadeUpTrigger">
 			<p class="content__text">
 				もし、このWEBサイトを見て、少しでも気になった方、これからの美容師としての将来を悩んでいる方、色々見て比べたいと考えている方、大歓迎です。まずはサロン見学にお越しください！「一度話を聞いてみよう。」そんな気持ちで大丈夫です。是非お気軽に、お問合せしやすい方法でご連絡ください。
 			</p>
@@ -227,12 +303,12 @@
 	</div>
 </section>
 
-<figure class="contact__under--img">
+<figure class="contact__under--img fadeUpTrigger">
 	<img src="<?php echo get_template_directory_uri(); ?>/images/contact_under_img.jpg" alt="">
 </figure>
 
 <section id="strong">
-	<h2>
+	<h2 class="fadeUpTrigger">
 		<strong>
 			strong<br>point
 		</strong>
@@ -241,7 +317,7 @@
 		</p>
 	</h2>
 
-	<div class="strong__content strong__content--left">
+	<div class="strong__content strong__content--left fadeUpTrigger">
 		<h3>
 			<span>半個室型美容室</span>
 			<strong>01</strong>
@@ -255,7 +331,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="strong__content strong__content--right">
+	<div class="strong__content strong__content--right fadeUpTrigger">
 		<h3>
 			<span>マンツーマン施術</span>
 			<strong>02</strong>
@@ -269,7 +345,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="strong__content strong__content--left">
+	<div class="strong__content strong__content--left fadeUpTrigger">
 		<h3>
 			<span>抜群のお客様支持率</span>
 			<strong>03</strong>
@@ -283,7 +359,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="strong__content strong__content--right">
+	<div class="strong__content strong__content--right fadeUpTrigger">
 		<h3>
 			<span>名古屋駅徒歩２分の好立地</span>
 			<strong>04</strong>
@@ -297,7 +373,7 @@
 			</p>
 		</div>
 	</div>
-	<div class="strong__content strong__content--left">
+	<div class="strong__content strong__content--left fadeUpTrigger">
 		<h3>
 			<span>２ヶ月間保証給あり</span>
 			<strong>05</strong>
@@ -314,16 +390,16 @@
 </section>
 
 <section id="recruit">
-	<h2>
+	<h2 class="fadeUpTrigger">
 		<img src="<?php echo get_template_directory_uri(); ?>/images/recruit_ttl.png" alt="">
 	</h2>
 
 	<div class="recruit__wrapper">
-		<div class="recruit__content--ttl">
+		<div class="recruit__content--ttl fadeUpTrigger">
 			<p>【保証給２ヶ月間】月<span>50</span>万円</p>
 		</div>
 
-		<div class="recruit__content font__type--mp ">
+		<div class="recruit__content font__type--mp fadeUpTrigger">
 			<div class="container">
 				<dl class="flex">
 					<dt>職種</dt>
@@ -362,11 +438,11 @@
 					<dd>各線　名古屋駅</dd>
 				</dl>
 			</div>
-			<figure class="recruit_content--img recruit_content--left">
+			<figure class="recruit_content--img recruit_content--left fadeUpTrigger">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/recruit_img01.jpg" alt="">
 			</figure>
 			<div class="container">
-				<ul>
+				<ul class="fadeUpTrigger">
 					<li>現在スタイリスト6名在籍</li>
 					<li>平均年収は980万円</li>
 					<li>平均客単価18,679円</li>
@@ -381,7 +457,7 @@
 
 
 
-			<figure class="recruit_content--img recruit_content--right">
+			<figure class="recruit_content--img recruit_content--right fadeUpTrigger">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/recruit_img02.jpg" alt="">
 			</figure>
 		</div>
@@ -952,37 +1028,31 @@
 			</a>
 		</li>
 		<li>
-			<a href="#about" class="flex">
+			<a href="#message" class="flex">
 				<p>〉<span>MESSAGE</span></p>
 				<p>リクルートメッセージ</p>
 			</a>
 		</li>
 		<li>
-			<a href="#whats" class="flex">
+			<a href="#about" class="flex">
 				<p>〉<span>ABOUT</span></p>
 				<p>アイコニックとは</p>
 			</a>
 		</li>
 		<li>
-			<a href="#interview" class="flex">
+			<a href="#strong" class="flex">
 				<p>〉<span>WHAT’S AIconic?</span></p>
 				<p>アイコニックの特徴</p>
 			</a>
 		</li>
 		<li>
-			<a href="#recruit" class="flex">
+			<a href="#interview" class="flex">
 				<p>〉<span>COMS PEOPLE VOICE</span></p>
-				<p>リクルート情報</p>
-			</a>
-		</li>
-		<li>
-			<a href="#entry" class="flex">
-				<p>〉<span>CONTACT us</span></p>
 				<p>コムズで働く人</p>
 			</a>
 		</li>
 		<li>
-			<a href="#company" class="flex">
+			<a href="#recruit" class="flex">
 				<p>〉<span>RECRUIT</span></p>
 				<p>募集要項</p>
 			</a>
@@ -994,19 +1064,19 @@
 			</a>
 		</li>
 		<li>
-			<a href="#company" class="flex">
+			<a href="#salon" class="flex">
 				<p>〉<span>SALON</span></p>
 				<p>コムズグループ直営店</p>
 			</a>
 		</li>
 		<li>
-			<a href="#company" class="flex">
+			<a href="#voice" class="flex">
 				<p>〉<span>STAFF VOICE</span></p>
 				<p>働くスタッフたちの声</p>
 			</a>
 		</li>
 		<li>
-			<a href="#company" class="flex">
+			<a href="#contact" class="flex">
 				<p>〉<span>CONTACT US</span></p>
 				<p>お問い合わせについて</p>
 			</a>
