@@ -430,16 +430,6 @@ p.content__text {
 }
 
 /*********************************
-	whats
-*********************************/
-#whats {
-  padding-top: 10px;
-}
-#whats img {
-  width: 100%;
-}
-
-/*********************************
 	strong
 *********************************/
 #strong {
@@ -595,133 +585,239 @@ p.content__text {
 }
 
 /*********************************
-	salon
+	COMPANY
 *********************************/
-h2.sec_ttl {
-  text-align: center;
-  font-size: 12px;
+#company {
+  background-color: #E3E3E3;
+}
+#company figure {
   margin-bottom: 40px;
 }
-h2.sec_ttl span {
-  border-bottom: 1px solid #000;
-  padding-bottom: 8px;
-}
-
-#salon {
-  margin-top: 128px;
-}
-#salon figure img {
+#company figure img {
   width: 100%;
 }
-#salon .salon_list {
-  margin-top: 70px;
+#company figure.company__img--bottom {
+  margin-bottom: 0;
 }
-#salon .salon_list ul li {
-  width: 46%;
+#company h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 40px;
 }
-#salon .salon_list ul li figure {
-  margin-bottom: 15px;
-}
-#salon .salon_list ul li figure img {
-  width: 100%;
-}
-#salon .salon_list ul li b {
-  font-size: 13px;
-  display: block;
-  margin-bottom: 10px;
-  font-family: "Montserrat", sans-serif;
-}
-#salon .salon_list ul li p {
-  line-height: 1.5;
+#company h2 span {
   font-size: 12px;
-  margin-bottom: 20px;
+  display: block;
 }
-#salon .salon_list ul li p a {
+#company ul {
+  margin-bottom: 40px;
+}
+#company ul li {
+  border-bottom: 2px dashed #242424;
   color: #000;
-  text-decoration: underline;
-  margin-top: 20px;
-  display: block;
+  font-size: 13px;
+  padding: 15px 0;
+  text-align: center;
+}
+#company ul li :last-child {
+  border-bottom: none;
 }
 
 /*********************************
-	people
+	salon
 *********************************/
-#interview {
-  padding-top: 60px;
+#salon {
+  background-color: #E3E3E3;
+  padding-top: 45px;
 }
-#interview span.ttl {
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  color: #4A4A4A;
-  display: block;
+#salon h2 {
+  font-size: 35px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
-#interview p.people_text {
+#salon h2 span {
   font-size: 12px;
-  line-height: 1.5;
-  margin-bottom: 35px;
-  text-align: center;
+  display: block;
 }
-#interview ul {
+#salon .flex {
   flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 10px;
 }
-#interview ul li {
-  width: 49.5%;
-  margin-bottom: 30px;
+#salon .salon__item {
+  width: 46%;
+  margin-bottom: 33px;
 }
-#interview ul li figure img {
+#salon .salon__item .salon__item--thumb {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95px;
+  background-image: url(./../images/strong_bg.jpg);
+  margin-bottom: 14px;
+  border-radius: 5px;
+}
+#salon .salon__item .salon__item--info h3 {
+  font-family: "Montserrat";
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+#salon .salon__item .salon__item--info p {
+  font-size: 12px;
+  line-height: 1.6em;
+  font-family: "mplus";
+}
+#salon .salon__item .salon__item--info a {
+  text-decoration: underline;
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: #000;
+  display: block;
+  font-family: "mplus";
+}
+#salon .salon__item .salon__item--info span {
+  display: block;
+  font-size: 12px;
+  line-height: 1.6em;
+  font-family: "mplus";
+}
+#salon .salon__appeal figure img {
   width: 100%;
+}
+#salon .salon__appeal .salon__appeal--inner {
+  width: 72%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#salon .salon__appeal .salon__appeal--inner h3 {
+  font-size: 40px;
+  line-height: 1.25em;
+  color: #242424;
+  margin-bottom: 30px;
+  letter-spacing: 0;
+  font-weight: normal;
+}
+#salon .salon__appeal .salon__appeal--inner p {
+  line-height: 2;
+  font-size: 12px;
+}
+#salon .salon__appeal .salon__appeal--inner p span {
+  display: block;
+  margin-bottom: 30px;
+  color: #242424;
+}
+#salon .salon__appeal .salon__appeal--content {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./../images/appeal_bg.jpg);
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
 
 /*********************************
-	RECRUIT
+	voice
 *********************************/
-#recruit figure.logo {
-  text-align: center;
-  margin-top: 60px;
-  margin-bottom: 20px;
+#voice {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./../images/voice_bg.jpg);
+  padding-top: 68px;
+  padding-bottom: 50px;
 }
-#recruit figure.logo img {
-  width: 232px;
+#voice h2 {
+  margin-bottom: 40px;
+  font-weight: normal;
 }
-#recruit figure.logo figcaption {
+#voice h2 p {
   text-align: center;
-  font-family: "baskerville-display-pt", serif;
+  font-size: 61px;
+  line-height: 1.2;
+  color: #6E6963;
+  margin-bottom: 10px;
+}
+#voice h2 span {
   display: block;
-  font-size: 26px;
-  color: #4A4A4A;
-  margin-top: 35px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1em;
+  letter-spacing: 0.05em;
+  color: #242424;
 }
-#recruit figure.recruit_mv img {
-  width: 100%;
+#voice .voice__wrapper .voice__content--group {
+  margin-bottom: 40px;
 }
-#recruit .info {
-  margin-top: 25px;
-  margin-bottom: 25px;
+#voice .voice__wrapper .voice__content span {
+  font-size: 10px;
+  font-family: "Montserrat";
+  text-align: right;
+  display: block;
+  padding-right: 25px;
 }
-#recruit .info dl {
-  font-size: 14px;
-  font-family: "Hiragino Kaku Gothic ProN";
-  margin-bottom: 5px;
-}
-#recruit .info dl:first-of-type dt {
-  border-right: none;
-}
-#recruit .info dl dt {
-  width: 19%;
-  border-right: 1px solid #000;
-}
-#recruit .info dl dd {
-  width: 80%;
-  padding-left: 5px;
+#voice .voice__wrapper .voice__content div {
   box-sizing: border-box;
+  font-size: 14px;
+  line-height: 2;
+  padding: 20px;
+  background: #EEEEEE;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  color: #000;
+  max-width: 91%;
+  letter-spacing: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
 }
-#recruit figure.recruit_text img {
-  margin-top: 25px;
+#voice .voice__wrapper .voice__content--icon {
   width: 100%;
+  max-width: 100%;
+  justify-content: flex-start;
+}
+#voice .voice__wrapper .voice__content--icon div {
+  max-width: 100%;
+  justify-content: space-between;
+}
+#voice .voice__wrapper .voice__content--icon figure {
+  width: 16%;
+}
+#voice .voice__wrapper .voice__content--icon figure img {
+  width: 100%;
+}
+#voice .voice__wrapper .voice__content--icon p {
+  width: 80%;
+}
+#voice .voice__wrapper .voice__content--img {
+  max-width: 85.83%;
+  width: 100%;
+}
+#voice .voice__wrapper .voice__content--img div {
+  max-width: 100%;
+}
+#voice .voice__wrapper .voice__content--img div figure {
+  width: 100%;
+}
+#voice .voice__wrapper .voice__content--img div figure img {
+  width: 100%;
+}
+#voice .voice__wrapper .voice__content--img--right {
+  margin-left: auto;
+  max-width: 91%;
+}
+#voice .voice__wrapper .voice__content--img--left {
+  max-width: 91%;
+}
+#voice .voice__wrapper .voice__content--right div {
+  margin-left: auto;
+}
+#voice .voice__wrapper .voice__content--right span {
+  padding-right: 0;
 }
 
+/*********************************
+	COMS_PEOPLE
+*********************************/
+/*********************************
+	contact
+*********************************/
 #contact {
   padding-top: 50px;
   font-family: "Hiragino Kaku Gothic ProN";
@@ -854,50 +950,6 @@ h2.sec_ttl span {
 }
 #contact .contact_form .wpcf7 .screen-reader-response {
   width: 1px;
-}
-
-#recruit_store {
-  padding-top: 60px;
-  padding-bottom: 80px;
-}
-#recruit_store figure {
-  margin-bottom: 40px;
-  overflow: hidden;
-}
-#recruit_store figure img {
-  width: 100%;
-  margin-left: 3%;
-}
-#recruit_store ul {
-  margin-top: 20px;
-}
-#recruit_store ul li {
-  margin-bottom: 13px;
-}
-#recruit_store ul li img {
-  width: 100%;
-}
-
-#company figure img {
-  width: 100%;
-}
-#company p {
-  font-size: 16px;
-  line-height: 2;
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-#company ul {
-  width: 100%;
-}
-#company ul li {
-  margin-bottom: 10px;
-}
-#company ul li img {
-  width: 100%;
 }
 
 #footer {

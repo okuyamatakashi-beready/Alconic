@@ -379,6 +379,7 @@
 	</div>
 </section>
 
+
 <section class="contact contact--second">
 	<h2>
 		<p>contact us</p>
@@ -409,6 +410,341 @@
 		</div>
 	</div>
 </section>
+
+<section id="company">
+	<figure>
+		<img src="<?php echo get_template_directory_uri(); ?>/images/company_img.jpg" alt="">
+	</figure>
+
+	<div class="container">
+		<h2>
+			COMPANY<br>
+			<span class="font__type--mp">コムズグループ直営店</span>
+		</h2>
+
+		<ul class="font__type--mp">
+			<li>有限会社かっとはうすごろう</li>
+			<li>代表者｜田中房五郎</li>
+			<li>COMS GROUP 発足20年</li>
+			<li>全国150店舗</li>
+			<li>ヘアスタイリスト850人</li>
+			<li>年商85億円</li>
+			<li>平均年収650万円</li>
+		</ul>
+	</div>
+
+	<figure class="company__img--bottom">
+		<img src="<?php echo get_template_directory_uri(); ?>/images/company_img02.jpg" alt="">
+	</figure>
+</section>
+
+<section id="salon">
+	<h2>
+		SALON<br>
+		<span class="">コムズグループ直営店</span>
+	</h2>
+
+	<div class="salon__wrapper container">
+		<div class="flex">
+		<?php
+			$paged = get_query_var('paged') ? get_query_var('paged') : 1 ;
+			$args = array(
+				'posts_per_page' => '-1', //表示件数。-1なら全件表示
+				'post_status' => 'publish', //取得するステータス。publishなら一般公開のもののみ
+				'paged' => $paged,
+				'post_type' => 'alconic_salon',
+			);
+			?>
+			
+			<?php $my_query = new WP_Query( $args ); ?><!-- クエリの指定 -->
+
+			<?php if ( $my_query->have_posts() ) :
+
+				while ( $my_query->have_posts() ) : $my_query->the_post(); ?>
+				<?php 
+				$salon_img = get_field('salon_img');
+				$salon_name = get_field('salon_name');
+				$salon_address = get_field('salon_address');
+				$salon_map = get_field('salon_map');
+				$salon_tel = get_field('salon_tel');
+				$salon_time = get_field('salon_time');
+				?>
+			<div class="salon__item">
+				<div class="salon__item--thumb" style="background-image: url(<?php echo $salon_img;?>);"></div>
+				<div class="salon__item--info">
+					<h3><?php echo $salon_name;?></h3>
+					<p>
+						<?php echo $salon_address;?>
+					</p>
+					<a href="<?php echo $salon_map;?>" target="_blank">[GoogleMap]</a>
+					<span>Tel.<?php echo $salon_tel;?></span>
+					<span>Open.<?php echo $salon_name;?></span>
+				</div>
+			</div>
+
+			<?php endwhile; ?>
+			<?php endif; ?>
+			<?php wp_reset_postdata(); ?>	
+
+		</div>
+	</div>
+	
+	<div class="salon__appeal">
+		<figure>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/appeal_img.jpg" alt="">
+		</figure>
+
+		<div class="salon__appeal--content ">
+			<div class="salon__appeal--inner">
+				<h3>
+					働く美容師<br>
+					満足度日本一の<br>
+					美容室。
+				</h3>
+
+				<p class="font__type--mp">
+					<span>人生100年時代。</span>
+					<span>
+						長い美容師人生をより良いものにするのなら<br>
+						あなたは今いるその場所でいいですか？<br>
+						人生は長いですが、美容師のピークは短いです。<br>
+						迷っているならまずは動いてみる方がいい。
+					</span>
+
+					<span>
+						COMS(コムズ)グループはそんなあなたを<br>
+						全力で応援し、サポートします。<br>
+						なぜなら、働く美容師の満足度日本一の美容室<br>
+						をコンセプトに作ってきた会社だからです。
+					</span>
+
+					<span>
+						収入も、やりがいも、大切な家族との時間も<br>
+						もしかしたら厳しい現実で、いつからか<br>
+						諦めてしまった「夢」も…
+					</span>
+
+					<span>
+						もう一度、叶える為に、理想の美容師人生を<br>
+						一緒に歩みませんか？<br>
+						コムズグループは全国の美容師を対象に<br>
+						“今を変えたい”<br>
+						そんなあなたのエントリーをお待ちしています。
+					</span>
+
+					<span>少しでも興味が湧いたら夢の話をしましょう。</span>
+				</p>
+			</div>
+			
+		</div>
+		<figure>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/appeal_img02.jpg" alt="">
+		</figure>
+	</div>
+</section>
+
+<section id="voice">
+	<div class="container">
+		<h2>
+			<p>
+				STAFF<br>
+				VOICE
+			</p>
+			<span>続々と届く、働くスタッフたちの声</span>
+		</h2>
+
+		<div class="voice__wrapper">
+			<div class="voice__content--group">
+				<div class="voice__content voice__content--icon voice__content--left flex">
+					<div class="flex">
+						<figure>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/icon01.png" alt="">
+						</figure>
+						<p>
+							以前は人間関係も拘束時間も給与も全部にもやもやしながら働いてた。いまは全て叶えられました！<br>
+							何も諦めたくない、妥協できない人に向いてると思います。
+						</p>
+					</div>
+				</div>
+				<div class="voice__content voice__content--left">
+					<div>
+						<p>
+							女性でも努力次第でこんなに稼げるんだって証明していきたい！
+						</p>
+					</div>
+				</div>
+				<div class="voice__content voice__content--img voice__content--left">
+					<div>
+						<figure>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/voice_img01.png" alt="">
+						</figure>
+					</div>
+					<span>所属9年目　41歳　女性</span>
+				</div>
+			</div>
+			<!-- //voice__content--group -->
+
+			<div class="voice__content--group">
+				<div class="voice__content voice__content--icon voice__content--right">
+					<div class="flex">
+						
+						<p>
+							お給料が以前の３倍くらいになりました！頑張りがそのままお給料になるのは嬉しいし、頑張れます！
+						</p>
+						<figure>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/icon02.png" alt="">
+						</figure>
+					</div>
+					<span>所属9年目　44歳　女性</span>
+
+				</div>
+
+			</div>
+			<!-- //voice__content--group -->
+
+			<div class="voice__content--group">
+				<div class="voice__content voice__content--icon voice__content--left flex">
+					<div class="flex">
+						<figure>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/icon03.png" alt="">
+						</figure>
+						<p>
+							売上げを上げて収入を安定させる仕組み、会社のサポート、頼もしい仲間、全ての環境が整っているのがコムズグループです！
+						</p>
+					</div>
+				</div>
+				<div class="voice__content voice__content--img voice__content--left">
+					<div>
+						<figure>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/voice_img02.png" alt="">
+						</figure>
+					</div>
+					<span>所属7年目　37歳　男性</span>
+				</div>
+			</div>
+			<!-- //voice__content--group -->
+
+			<div class="voice__content--group">
+				<div class="voice__content voice__content--icon voice__content--right">
+					<div class="flex">
+						
+						<p>
+						コムズに入って思うことは、コムズは叶えたい夢や目標を実現できる場所だということ。
+						</p>
+						<figure>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/icon04.png" alt="">
+						</figure>
+					</div>
+				</div>
+
+				<div class="voice__content voice__content--right">
+					<div>
+						<p>
+						柔軟な働き方ができるので、今まで時間がなくて諦めていたことにも挑戦できるようになりました
+						</p>
+					</div>
+					<span>所属10年目　40歳　男性</span>
+				</div>
+
+			</div>
+			<!-- //voice__content--group -->
+
+			<div class="voice__content--group">
+				<div class="voice__content voice__content--icon voice__content--left flex">
+					<div class="flex">
+						<figure>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/icon05.png" alt="">
+						</figure>
+						<p>
+						正社員雇用でしか働いたことがなかったので、業務委託でやっていけるのかはじめは不安でした。
+						</p>
+					</div>
+				</div>
+				<div class="voice__content voice__content--left">
+					<div>
+						<p>でも、保証給があったので一歩踏み出せました！</p>
+					</div>
+					<span>所属1年目　44歳　女性</span>
+				</div>
+			</div>
+			<!-- //voice__content--group -->
+
+			<div class="voice__content--group">
+				<div class="voice__content voice__content--icon voice__content--right">
+					<div class="flex">
+						<p>
+						技術や売上げだけでなく人間性も大切にしている会社です。
+						</p>
+						<figure>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/icon06.png" alt="">
+						</figure>
+					</div>
+				</div>
+
+				<div class="voice__content voice__content--right">
+					<div>
+						<p>
+						金銭的にも時間的にも余裕ができてプライベートも充実しています！
+						</p>
+					</div>
+				</div>
+
+				<div class="voice__content voice__content--img voice__content--img--right voice__content--right">
+					<div>
+						<figure>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/voice_img03.png" alt="">
+						</figure>
+					</div>
+					<span>所属2年目　24歳　女性</span>
+				</div>
+
+			</div>
+			<!-- //voice__content--group -->
+
+			<div class="voice__content--group">
+				<div class="voice__content voice__content--icon voice__content--left flex">
+					<div class="flex">
+						<figure>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/icon07.png" alt="">
+						</figure>
+						<p>
+						もっと美容師を楽しみたい人にこそ合う環境だと思います！生活も豊かになるし、美容師としてのステップアップも叶います！
+						</p>
+					</div>
+				</div>
+				<div class="voice__content voice__content--img voice__content--img--left voice__content--left">
+					<div>
+						<figure>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/voice_img04.png" alt="">
+						</figure>
+					</div>
+					<span>所属9年目　41歳　女性</span>
+				</div>
+			</div>
+			<!-- //voice__content--group -->
+		</div>
+	</div>
+</section>
+
+<section id="coms_people">
+	<h2>
+		<p class="container">
+			COMS<br>
+			PEOPLE<br>
+			VOICE<br>
+			<span>コムズで働く人</span>
+		</p>
+	</h2>
+
+	<div class="people__content">
+		<p class="container">コムズに入社したことで何が変わって、何が叶ったのか。そんな事を紐解くスタッフインタビューです。</p>
+	</div>
+
+	<div class="people__wrapper container">
+		
+	</div>
+</section>
+
 
 
 <div id="interview">

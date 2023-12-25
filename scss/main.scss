@@ -385,15 +385,7 @@ p.content__text {
 .contact--second {
 	margin-top: -50px;
 }
-/*********************************
-	whats
-*********************************/
-#whats {
-	padding-top: 10px;
-	img {
-		width: 100%;
-	}
-}
+
 
 /*********************************
 	strong
@@ -565,150 +557,260 @@ p.content__text {
 }
 
 /*********************************
-	salon
+	COMPANY
 *********************************/
-h2.sec_ttl {
-	text-align: center;
-	font-size: 12px;
-	margin-bottom: 40px;
-	span {
-		border-bottom: 1px solid #000;
-		padding-bottom: 8px;
-	}
-}
-#salon {
-	margin-top: 128px;
+#company {
+	background-color: #E3E3E3;
 	figure {
+		margin-bottom: 40px;
 		img {
 			width: 100%;
 		}
+		&.company__img--bottom {
+			margin-bottom: 0;
+		}
 	}
-	.salon_list {
-		margin-top: 70px;
-		ul {
-			li {
-				width: 46%;
-				figure {
-					margin-bottom: 15px;
-					img {
-						width: 100%;;
-					}
-				}
-				b {
-					font-size: 13px;
-					display: block;
-					
-					margin-bottom: 10px;
-					font-family: 'Montserrat', sans-serif;
-				}
-				p {
-					line-height: 1.5;
-					font-size: 12px;
-					margin-bottom: 20px;
-					a {
-						color: #000;
-						text-decoration: underline;
-						margin-top: 20px;
-						display: block;
-					}
-				}
+	h2 {
+		font-size: 35px;
+		text-align: center;
+		margin-bottom: 40px;
+		span {
+			font-size: 12px;
+			display: block;
+
+		}
+	}
+	ul {
+		margin-bottom: 40px;
+		li {
+			border-bottom: 2px dashed #242424;
+			color: #000;
+			font-size: 13px;
+			padding: 15px 0;
+			text-align: center;
+			:last-child {
+				border-bottom: none;
 			}
 		}
 	}
 }
 
+/*********************************
+	salon
+*********************************/
+#salon {
+	background-color: #E3E3E3;
+	padding-top: 45px;
+	h2 {
+		font-size: 35px;
+		text-align: center;
+		margin-bottom: 40px;
+		span {
+			font-size: 12px;
+			display: block;
+
+		}
+	}
+	.flex {
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding-bottom: 10px;
+	}
+	.salon__item {
+		width: 46%;
+		margin-bottom: 33px;
+		.salon__item--thumb {
+			@include v.bg;
+			height: 95px;
+			background-image: url(./../images/strong_bg.jpg);
+			margin-bottom: 14px;
+			border-radius: 5px;
+		}
+		.salon__item--info {
+			h3 {
+				font-family: 'Montserrat';
+				font-size: 13px;
+				margin-bottom: 12px;
+			}
+			p {
+				font-size: 12px;
+				line-height: 1.6em;
+				font-family: 'mplus';
+			}
+			a {
+				text-decoration: underline;
+				font-size: 12px;
+				margin-bottom: 20px;
+				color: #000;
+				display: block;
+				font-family: 'mplus';
+			}
+			span {
+				display: block;
+				font-size: 12px;
+				line-height: 1.6em;
+				font-family: 'mplus';
+			}
+		}
+	}
+	.salon__appeal {
+		
+		figure {
+			img {
+				width: 100%;
+			}
+		}
+		.salon__appeal--inner {
+			width: 72%;
+			margin-right: auto;
+			margin-left: auto;
+			
+			h3 {
+				font-size: 40px;
+				line-height: 1.25em;
+				color: #242424;
+				margin-bottom: 30px;
+				letter-spacing: 0;
+				font-weight: normal;
+			}
+			p {
+				line-height: 2;
+				font-size: 12px;
+				span {
+					display: block;
+					margin-bottom: 30px;
+					color: #242424;
+				}
+			}
+		}
+		.salon__appeal--content {
+			@include v.bg;
+			background-image: url(./../images/appeal_bg.jpg);
+			padding-top: 40px;
+			padding-bottom: 60px;
+		}
+	}
+}
+
+
 
 /*********************************
-	people
+	voice
 *********************************/
-#interview {
-	padding-top: 60px;
-	span.ttl {
-		font-family: 'Montserrat', sans-serif;
-		font-size: 30px;
-		color: #4A4A4A;
-		display: block;
-		text-align: center;
-		margin-bottom: 20px
+#voice {
+	@include v.bg;
+	background-image: url(./../images/voice_bg.jpg);
+	padding-top: 68px;
+	padding-bottom: 50px;
+	h2 {
+		margin-bottom: 40px;
+		font-weight: normal;
+		p {
+			text-align: center;
+			font-size: 61px;
+			line-height: 1.2;
+			color: #6E6963;
+			margin-bottom: 10px;
+		}
+		
+		span {
+			display: block;
+			text-align: center;
+			font-size: 15px;
+			line-height: 1em;
+			letter-spacing: 0.05em;
+			color: #242424;
+		}
 	}
-	p.people_text {
-		font-size: 12px;
-		line-height: 1.5;
-		margin-bottom: 35px;
-		text-align: center;
-	}
-	ul {
-		flex-wrap: wrap;
-		li {
-			width: 49.5%;
-			margin-bottom: 30px;
+	.voice__wrapper {
+		.voice__content--group {
+			margin-bottom: 40px;
+		}
+		.voice__content {
+			span {
+				font-size: 10px;
+				font-family: 'Montserrat';
+				text-align: right;
+				display: block;
+				padding-right: 25px;
+			}
+		}
+		.voice__content div {
+			box-sizing: border-box;
+			font-size: 14px;
+			line-height: 2;
+			padding: 20px;
+			background: #EEEEEE;
+			border-radius: 10px;
+			margin-bottom: 12px;
+			color: #000;
+			max-width: 91%;
+			letter-spacing: 0;
+			font-family: "Hiragino Kaku Gothic ProN";
+			
+		}
+		.voice__content--icon {
+			width: 100%;
+			max-width: 100%;
+			justify-content: flex-start;
+			div {
+				max-width: 100%;
+				justify-content: space-between;
+			}
 			figure {
+				width: 16%;
 				img {
 					width: 100%;
 				}
 			}
+			p {
+				width: 80%;
+			}
+		}
+
+		.voice__content--img {
+			max-width: 85.83%;
+			div {
+				max-width: 100%;
+				figure {
+					width: 100%;
+					img {
+						width: 100%;
+					}
+				}
+			}
+			width: 100%;
+		}
+		.voice__content--img--right {
+			margin-left: auto;
+			max-width: 91%;
+		}
+		.voice__content--img--left {
+			max-width: 91%;
+		}
+		.voice__content--right {
+			
+			div {
+				margin-left: auto;
+				p {
+					
+				}
+			}
+			span {
+				padding-right: 0;
+			}
 		}
 	}
 }
-
 /*********************************
-	RECRUIT
+	COMS_PEOPLE
 *********************************/
 
 
-#recruit {
-	figure.logo {
-		text-align: center;
-		margin-top: 60px;
-		margin-bottom: 20px;
-		img {
-			width: 232px;
-		}
-		figcaption {
-			text-align: center;
-			font-family: "baskerville-display-pt", serif;
-			display: block;
-			font-size: 26px;
-			color: #4A4A4A;
-			margin-top: 35px;
-		}
-	}
-	figure.recruit_mv {
-		img {
-			width: 100%;
-		}
-	}
-	.info {
-		margin-top: 25px;
-		margin-bottom: 25px;
-		dl {
-			font-size: 14px;
-			font-family: "Hiragino Kaku Gothic ProN";
-			margin-bottom: 5px;
-			&:first-of-type {
-				dt {
-					border-right: none;
-				}
-			}
-			dt {
-				width: 19%;
-				border-right: 1px solid #000;
-			}
-			dd {
-				width: 80%;
-				padding-left: 5px;
-				box-sizing: border-box;
-			}
-		}
-	}
-	figure.recruit_text {
-		img {
-			margin-top: 25px;
-			width: 100%;
-		}
-	}
-}
 
+/*********************************
+	contact
+*********************************/
 #contact {
 	padding-top: 50px;
 	font-family: "Hiragino Kaku Gothic ProN";
@@ -851,53 +953,6 @@ h2.sec_ttl {
 	}
 }
 
-#recruit_store {
-	padding-top: 60px;
-	padding-bottom: 80px;
-	figure {
-		margin-bottom: 40px;
-		overflow: hidden;
-		img {
-			width: 100%;
-			margin-left: 3%;
-		}
-	}
-	ul {
-		margin-top: 20px;
-		li {
-			margin-bottom: 13px;
-			img {
-				width: 100%;
-			}
-		}
-	}
-}
-
-#company {
-	figure {
-		img {
-			width: 100%;
-		}
-	}
-	p {
-		font-size: 16px;
-		line-height: 2;
-		width: 80%;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 30px;
-		margin-bottom: 30px;
-	}
-	ul {
-		width: 100%;
-		li {
-			margin-bottom: 10px;
-			img {
-				width: 100%;
-			}
-		}
-	}
-}
 
 #footer {
 	padding-bottom: 170px;

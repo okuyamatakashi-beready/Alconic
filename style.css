@@ -20,6 +20,11 @@ Version: 1.0
   src: url("./fonts/AvenirLTStd-Roman.otf"); /* フォントファイルへのパスを設定 */
   format: "opentype"; /* フォントのフォーマットを指定 */
 }
+@font-face {
+  font-family: "shimanami"; /* 任意のフォント名を設定 */
+  src: url("./fonts/AP-OTF-ShimanamiStdN-R.otf"); /* フォントファイルへのパスを設定 */
+  format: "opentype"; /* フォントのフォーマットを指定 */
+}
 * {
   margin: 0;
   padding: 0;
