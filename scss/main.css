@@ -227,17 +227,17 @@ p.content__text {
 }
 .navigation .navigation__wrapper .navigation__content strong {
   color: #fff;
-  font-size: 21px;
+  font-size: 18px;
   letter-spacing: 0.02em;
   display: block;
   margin-bottom: 15px;
 }
 .navigation .navigation__wrapper .navigation__content ul li {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .navigation .navigation__wrapper .navigation__content ul li a {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   word-break: break-all;
 }
 .navigation .navigation__wrapper .navigation__content ul li a span {

@@ -85,7 +85,7 @@
 </nav>
 <div class="flt_banner">
 	<p>是非一度サロン見学にお越しください。</p>
-	<a href="#entry" class="flex">
+	<a href="#contact" class="flex">
 		<span class="font__type--mp">お問合せはこちら</span><img src="<?php echo get_template_directory_uri(); ?>/images/arrow.svg" alt="お問い合わせはこちら">
 	</a>
 </div>
