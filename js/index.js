@@ -12,17 +12,6 @@ $(document).ready(function() {
 });
 
 // For external pages
-$(window).on('load', function() {
-  var hash = location.hash;
-  if(hash) {
-    var target = $(hash);
-    if(target.length) {
-      $('html, body').stop().animate({
-        scrollTop: target.offset().top
-      }, 1000);
-    }
-  }
-});
 
 // 動きのきっかけの起点となるアニメーションの名前を定義
 function fadeAnime(){
@@ -216,3 +205,14 @@ $('.navigation .navigation__wrapper .navigation__content ul li a').on('click',fu
 
 
 
+// ボタンの要素を取得
+var button = document.querySelector('.wpcf7-form-control.wpcf7-previous.send');
+
+// ボタンにイベントリスナーを追加
+button.addEventListener('click', function() {
+    // ここに新しいURLを設定
+    var newUrl = 'http://stg.alconic.llc-beready.com/#contact';
+
+    // 新しいURLにリダイレクト
+    window.location.href = newUrl;
+});

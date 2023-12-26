@@ -23,32 +23,45 @@
 	right: 0;
 	margin: auto;
 	z-index: 5000;
-	padding: 20px 0;
-	overflow: hidden;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-	@include v.bg;
-	background-image: url(./../images/flt_bg.png);
 	text-align: center;
 	@media screen and (max-width: 768px) {
 		width: 100%;
 	}
 	p {
-		font-size: 17px;
-		color: #242424;
-		line-height: 1;
-		margin-bottom: 17px;
+		font-size: 15px;
+		color: #fff;
+		line-height: 1.6;
+		span {
+			display: block;
+			font-size: 10px;
+		}
 	}
 	a {
-		width: 217px;
-		justify-content: center;
-		font-size: 18px;
+		width: 50%;
+		
 		color: #fff;
-		border-radius: 7px;
-		background-color: #242424;
+		font-size: 18px;
+		padding: 15px 0 18px 0;
+		color: #fff;
+		background-color: #505050;
 		margin: auto;
-		align-items: center;
-		padding: 10px 0;
+		display: block;
+		
+		font-family: 'Noto Serif JP', serif;
+		.flex {
+			align-items: center;
+			justify-content: center;
+		}
+		&.flt__banner--entry {
+			img {
+				margin-right: 10px;
+			}
+		}
+		&.flt__banner--line {
+			img {
+				margin-left: 10px;
+			}
+		}
 	}
 }
 
@@ -1131,6 +1144,12 @@ p.content__text {
 	.confirm__wrapper {
 		
 		box-sizing: border-box;
+		dl {
+			dd {
+				padding-left: 15px;
+				box-sizing: border-box;
+			}
+		}
 		.confirm__inner {
 			background-color: #F2F2F2;
 			padding: 30px 14px;
