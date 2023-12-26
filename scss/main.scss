@@ -1036,6 +1036,43 @@ p.content__text {
 					font-size: 14px;
 					margin-bottom: 5px;
 				}
+				dd {
+					box-sizing: border-box;
+					padding-left: 15px;
+					padding-top: 8px;
+					p {
+						word-break: break-all;
+						font-size: 12px;
+						
+					}
+				}
+			}
+			label {
+				position: relative;
+				background-repeat: no-repeat;
+				display: block;
+				float: right;
+				&::before {
+					content: "";
+					position: absolute;
+					top: 0;
+					right: 20px;
+					width: 7px;
+					height: 13px;
+					bottom: 0;
+					background-size: contain;
+					margin: auto;
+				}
+				&.comp {
+					&::before {
+						background-image: url(./../images/send_arrow.svg);
+					}
+				}
+				&.fix {
+					&::before {
+						background-image: url(./../images/fix_arrow.svg);
+					}
+				}
 			}
 			input, textarea {
 				background-color: #F4F4F4;
@@ -1073,6 +1110,37 @@ p.content__text {
 			border:1px dashed #ffb900;
 			box-sizing: border-box;
 			padding: 10px;
+		}
+	}
+	.confirm__wrapper {
+		
+		box-sizing: border-box;
+		.confirm__inner {
+			background-color: #F2F2F2;
+			padding: 30px 14px;
+			box-sizing: border-box;
+			div.flex {
+				margin-top: 40px;
+				p {
+					overflow: hidden;
+					display: block;
+					width: 100%;
+				}
+			}
+			input.send {
+				width: 150px;
+				margin-top: 0;
+			}
+			label.fix {
+				float:left;
+				margin-top: 0;
+				input {
+					width: 150px;
+					background-color: #fff;
+					color: #505050;
+				}
+			}
+			
 		}
 	}
 }

@@ -1036,6 +1036,38 @@ p.content__text {
   font-size: 14px;
   margin-bottom: 5px;
 }
+#contact .contact_form div dl dd {
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-top: 8px;
+}
+#contact .contact_form div dl dd p {
+  word-break: break-all;
+  font-size: 12px;
+}
+#contact .contact_form div label {
+  position: relative;
+  background-repeat: no-repeat;
+  display: block;
+  float: right;
+}
+#contact .contact_form div label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 7px;
+  height: 13px;
+  bottom: 0;
+  background-size: contain;
+  margin: auto;
+}
+#contact .contact_form div label.comp::before {
+  background-image: url(./../images/send_arrow.svg);
+}
+#contact .contact_form div label.fix::before {
+  background-image: url(./../images/fix_arrow.svg);
+}
 #contact .contact_form div input, #contact .contact_form div textarea {
   background-color: #F4F4F4;
   border: none;
@@ -1071,6 +1103,35 @@ p.content__text {
   border: 1px dashed #ffb900;
   box-sizing: border-box;
   padding: 10px;
+}
+#contact .confirm__wrapper {
+  box-sizing: border-box;
+}
+#contact .confirm__wrapper .confirm__inner {
+  background-color: #F2F2F2;
+  padding: 30px 14px;
+  box-sizing: border-box;
+}
+#contact .confirm__wrapper .confirm__inner div.flex {
+  margin-top: 40px;
+}
+#contact .confirm__wrapper .confirm__inner div.flex p {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+#contact .confirm__wrapper .confirm__inner input.send {
+  width: 150px;
+  margin-top: 0;
+}
+#contact .confirm__wrapper .confirm__inner label.fix {
+  float: left;
+  margin-top: 0;
+}
+#contact .confirm__wrapper .confirm__inner label.fix input {
+  width: 150px;
+  background-color: #fff;
+  color: #505050;
 }
 
 /*********************************
