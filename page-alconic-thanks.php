@@ -946,33 +946,17 @@
 
 	<div id="entry" class="contact_form container confirm__wrapper">
 
-		<?php echo do_shortcode('[contact-form-7 id="1052" title="Alconicお問い合わせ確認フォーム"]'); ?>
-		<!-- <div class="confirm__inner">
-			<dl>
-				<dt>お名前※</dt>
-				<dd>[multiform namae]</dd>
-			</dl>
-			<dl>
-				<dt>フリガナ※</dt>
-				<dd>[multiform namae "furigana"]</dd>
-			</dl>
-			<dl>
-				<dt>メールアドレス※</dt>
-				<dd>[multiform email]</dd>
-			</dl>
-			<dl>
-				<dt>電話番号</dt>
-				<dd>[multiform tel]</dd>
-			</dl>
-			<dl>
-				<dt>お問い合わせ内容※</dt>
-				<dd>[multiform naiyo]</dd>
-			</dl>
-			
-			<div class="flex">
-			<label class="fix">[previous class:send "修正する"]</label><label class="comp">[submit class:send "送信&nbsp;&nbsp;&nbsp;"]</label>[multistep multistep-414 last_step send_email "/alconic-thanks#entry/"]
-			</div>
-		</div> -->
+        <div class="thanks__inner">
+            <div class="container">
+                <b>お問い合わせありがとうございます。</b>
+
+                <p>
+                    メッセージは送信されました。<br>
+                    担当者より2営業日以内に<br>
+                    折り返し、お返事させていただきます。
+                </p>
+            </div>
+        </div>
 
 	</div>
 </div>

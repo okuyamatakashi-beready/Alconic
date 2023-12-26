@@ -1038,7 +1038,6 @@ p.content__text {
 }
 #contact .contact_form div dl dd {
   box-sizing: border-box;
-  padding-left: 15px;
   padding-top: 8px;
 }
 #contact .contact_form div dl dd p {
@@ -1091,6 +1090,22 @@ p.content__text {
 }
 #contact .contact_form div span.wpcf7-spinner {
   display: none;
+}
+#contact .contact_form .thanks__inner {
+  box-sizing: border-box;
+  background: #F2F2F2;
+  text-align: center;
+  padding: 40px 0;
+}
+#contact .contact_form .thanks__inner b {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+#contact .contact_form .thanks__inner p {
+  line-height: 2;
+  font-size: 12px;
 }
 #contact .contact_form .wpcf7 .screen-reader-response {
   width: 1px;

@@ -1038,7 +1038,6 @@ p.content__text {
 				}
 				dd {
 					box-sizing: border-box;
-					padding-left: 15px;
 					padding-top: 8px;
 					p {
 						word-break: break-all;
@@ -1099,6 +1098,23 @@ p.content__text {
 				display: none;
 			}
 		}
+		.thanks__inner {
+			box-sizing: border-box;
+			background: #F2F2F2;
+			text-align: center;
+			padding: 40px 0;
+			b {
+				font-size: 18px;
+				display: block;
+				margin-bottom: 50px;
+				font-weight: normal;
+			}
+			p {
+				line-height: 2;
+				font-size: 12px;
+			}
+		}
+
 		.wpcf7 .screen-reader-response {
 			width: 1px;
 		}
