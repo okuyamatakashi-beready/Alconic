@@ -946,7 +946,7 @@
 
 	<div id="entry" class="contact_form container">
 
-		<?php echo do_shortcode('[contact-form-7 id="874" title="COMSお問い合わせフォーム"]'); ?>
+		<?php echo do_shortcode('[contact-form-7 id="1049" title="Alconicお問い合わせフォーム"]'); ?>
 		<!-- <div>
 			<dl>
 				<dt>お名前※</dt>
