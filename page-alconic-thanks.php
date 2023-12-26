@@ -83,10 +83,24 @@
 		<small>Copyright © COMS GROUP all rights reserved.</small>
 	</div>
 </nav>
-<div class="flt_banner">
-	<p>是非一度サロン見学にお越しください。</p>
-	<a href="#contact" class="flex">
-		<span class="font__type--mp">お問合せはこちら</span><img src="<?php echo get_template_directory_uri(); ?>/images/arrow.svg" alt="お問い合わせはこちら">
+<div class="flt_banner flex">
+	<a href="#entry" class="flt__banner--entry">
+		<div class="flex">
+			<img src="<?php echo get_template_directory_uri(); ?>/images/entry_icon.svg" alt="" class="mv__slider--item">
+			<p>
+				ENTRY
+				<span>応募してみる</span>
+			</p>
+		</div>
+	</a>
+	<a href="https://line.me/R/ti/p/@395l" class="flt__banner--line" target="_blank">
+		<div class="flex">
+			<p>
+				CONTACT
+				<span>質問・お問合せ</span>
+			</p>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/line-icon.svg" alt="" class="mv__slider--item">
+		</div>
 	</a>
 </div>
 
@@ -287,15 +301,15 @@
 				もし、このWEBサイトを見て、少しでも気になった方、これからの美容師としての将来を悩んでいる方、色々見て比べたいと考えている方、大歓迎です。まずはサロン見学にお越しください！「一度話を聞いてみよう。」そんな気持ちで大丈夫です。是非お気軽に、お問合せしやすい方法でご連絡ください。
 			</p>
 
-			<a href="" class="contact__btn contact__btn--line">
+			<a href="https://line.me/R/ti/p/@395lv" class="contact__btn contact__btn--line">
 				<span>LINE</span>
 				<span>ラインでお問合せ</span>
 			</a>
-			<a href="" class="contact__btn contact__btn--mail">
+			<a href="mailto:recruit@comsgroup.co.jp" class="contact__btn contact__btn--mail">
 				<span>MAIL</span>
 				<span>メールでお問合せ</span>
 			</a>
-			<a href="" class="contact__btn contact__btn--insta">
+			<a href="https://www.instagram.com/aiconic_nagoya/" class="contact__btn contact__btn--insta" target="_blank">
 				<span>Instagram</span>
 				<span>インスタでお問合せ</span>
 			</a>
@@ -480,15 +494,15 @@
 				もし、このWEBサイトを見て、少しでも気になった方、これからの美容師としての将来を悩んでいる方、色々見て比べたいと考えている方、大歓迎です。まずはサロン見学にお越しください！「一度話を聞いてみよう。」そんな気持ちで大丈夫です。是非お気軽に、お問合せしやすい方法でご連絡ください。
 			</p>
 
-			<a href="" class="contact__btn contact__btn--line">
+			<a href="https://line.me/R/ti/p/@395lv" class="contact__btn contact__btn--line">
 				<span>LINE</span>
 				<span>ラインでお問合せ</span>
 			</a>
-			<a href="" class="contact__btn contact__btn--mail">
+			<a href="mailto:recruit@comsgroup.co.jp" class="contact__btn contact__btn--mail">
 				<span>MAIL</span>
 				<span>メールでお問合せ</span>
 			</a>
-			<a href="" class="contact__btn contact__btn--insta">
+			<a href="https://www.instagram.com/aiconic_nagoya/" class="contact__btn contact__btn--insta" target="_blank">
 				<span>Instagram</span>
 				<span>インスタでお問合せ</span>
 			</a>
@@ -622,9 +636,7 @@
 			</div>
 			
 		</div>
-		<figure>
-			<img src="<?php echo get_template_directory_uri(); ?>/images/appeal_img02.jpg" alt="">
-		</figure>
+
 	</div>
 </section>
 
@@ -827,7 +839,7 @@
 
 	<div class="people__wrapper container">
 		<div class="people__interview--content">
-			<a href="" target="_blank" class="fadeUpTrigger">
+			<a href="https://comsgroup.co.jp/people/山野井千鶴/" target="_blank" class="fadeUpTrigger">
 				<figure>
 					<img src="<?php echo get_template_directory_uri(); ?>/images/people01.png" alt="">
 					<figcaption>
@@ -843,7 +855,7 @@
 			</a>
 		</div>
 		<div class="people__interview--content">
-			<a href="" target="_blank" class="fadeUpTrigger">
+			<a href="https://comsgroup.co.jp/people/奥村真歩/" target="_blank" class="fadeUpTrigger">
 				<figure>
 					<img src="<?php echo get_template_directory_uri(); ?>/images/people02.png" alt="">
 					<figcaption>
@@ -859,7 +871,7 @@
 			</a>
 		</div>
 		<div class="people__interview--content">
-			<a href="" target="_blank" class="fadeUpTrigger">
+			<a href="https://comsgroup.co.jp/people/石川麻衣/" target="_blank" class="fadeUpTrigger">
 				<figure>
 					<img src="<?php echo get_template_directory_uri(); ?>/images/people03.png" alt="">
 					<figcaption>
@@ -875,7 +887,7 @@
 			</a>
 		</div>
 		<div class="people__interview--content">
-			<a href="" target="_blank" class="fadeUpTrigger">
+			<a href="https://comsgroup.co.jp/people/馬渡由季子/" target="_blank" class="fadeUpTrigger">
 				<figure>
 					<img src="<?php echo get_template_directory_uri(); ?>/images/people04.png" alt="">
 					<figcaption>
@@ -891,7 +903,7 @@
 			</a>
 		</div>
 		<div class="people__interview--content">
-			<a href="" target="_blank" class="fadeUpTrigger">
+			<a href="https://comsgroup.co.jp/people/横井小百合/" target="_blank" class="fadeUpTrigger">
 				<figure>
 					<img src="<?php echo get_template_directory_uri(); ?>/images/people05.png" alt="">
 					<figcaption>
@@ -910,6 +922,7 @@
 </div>
 
 
+
 <section class="contact contact--second">
 	<h2>
 		<p>contact us</p>
@@ -925,15 +938,15 @@
 				もし、このWEBサイトを見て、少しでも気になった方、これからの美容師としての将来を悩んでいる方、色々見て比べたいと考えている方、大歓迎です。まずはサロン見学にお越しください！「一度話を聞いてみよう。」そんな気持ちで大丈夫です。是非お気軽に、お問合せしやすい方法でご連絡ください。
 			</p>
 
-			<a href="" class="contact__btn contact__btn--line">
+			<a href="https://line.me/R/ti/p/@395lv" class="contact__btn contact__btn--line">
 				<span>LINE</span>
 				<span>ラインでお問合せ</span>
 			</a>
-			<a href="" class="contact__btn contact__btn--mail">
+			<a href="mailto:recruit@comsgroup.co.jp" class="contact__btn contact__btn--mail">
 				<span>MAIL</span>
 				<span>メールでお問合せ</span>
 			</a>
-			<a href="" class="contact__btn contact__btn--insta">
+			<a href="https://www.instagram.com/aiconic_nagoya/" class="contact__btn contact__btn--insta" target="_blank">
 				<span>Instagram</span>
 				<span>インスタでお問合せ</span>
 			</a>

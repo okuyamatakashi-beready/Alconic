@@ -84,7 +84,7 @@
 	</div>
 </nav>
 <div class="flt_banner flex">
-	<a href="" class="flt__banner--entry">
+	<a href="#entry" class="flt__banner--entry">
 		<div class="flex">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/entry_icon.svg" alt="" class="mv__slider--item">
 			<p>
@@ -839,7 +839,7 @@
 
 	<div class="people__wrapper container">
 		<div class="people__interview--content">
-			<a href="" target="_blank" class="fadeUpTrigger">
+			<a href="https://comsgroup.co.jp/people/山野井千鶴/" target="_blank" class="fadeUpTrigger">
 				<figure>
 					<img src="<?php echo get_template_directory_uri(); ?>/images/people01.png" alt="">
 					<figcaption>
@@ -855,7 +855,7 @@
 			</a>
 		</div>
 		<div class="people__interview--content">
-			<a href="" target="_blank" class="fadeUpTrigger">
+			<a href="https://comsgroup.co.jp/people/奥村真歩/" target="_blank" class="fadeUpTrigger">
 				<figure>
 					<img src="<?php echo get_template_directory_uri(); ?>/images/people02.png" alt="">
 					<figcaption>
@@ -871,7 +871,7 @@
 			</a>
 		</div>
 		<div class="people__interview--content">
-			<a href="" target="_blank" class="fadeUpTrigger">
+			<a href="https://comsgroup.co.jp/people/石川麻衣/" target="_blank" class="fadeUpTrigger">
 				<figure>
 					<img src="<?php echo get_template_directory_uri(); ?>/images/people03.png" alt="">
 					<figcaption>
@@ -887,7 +887,7 @@
 			</a>
 		</div>
 		<div class="people__interview--content">
-			<a href="" target="_blank" class="fadeUpTrigger">
+			<a href="https://comsgroup.co.jp/people/馬渡由季子/" target="_blank" class="fadeUpTrigger">
 				<figure>
 					<img src="<?php echo get_template_directory_uri(); ?>/images/people04.png" alt="">
 					<figcaption>
@@ -903,7 +903,7 @@
 			</a>
 		</div>
 		<div class="people__interview--content">
-			<a href="" target="_blank" class="fadeUpTrigger">
+			<a href="https://comsgroup.co.jp/people/横井小百合/" target="_blank" class="fadeUpTrigger">
 				<figure>
 					<img src="<?php echo get_template_directory_uri(); ?>/images/people05.png" alt="">
 					<figcaption>
