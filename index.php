@@ -444,7 +444,7 @@
 					<dd>
 						愛知県名古屋市中村区名駅<br>
 						4丁目10番25号 IMAIビル2F <br>
-						<a href="">[Google Map]</a>
+						<a href="https://maps.app.goo.gl/QP7ptP2FcCdyR1i88" target="_blank">[Google Map]</a>
 					</dd>
 				</dl>
 				<dl class="flex">

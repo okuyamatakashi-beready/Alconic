@@ -58,6 +58,8 @@
 			}
 		}
 		&.flt__banner--line {
+			box-sizing: border-box;
+			border-left: 1px solid #C7C6C2;
 			img {
 				margin-left: 10px;
 			}

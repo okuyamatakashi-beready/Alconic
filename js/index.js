@@ -201,6 +201,9 @@ $('#toggle').on('click',function(){
 $('.navigation .navigation__wrapper .navigation__content ul li a').on('click',function(){
 	$('body').removeClass('open');
 });
+$('.navigation .navigation__wrapper .navigation__content a.contact_btn').on('click',function(){
+	$('body').removeClass('open');
+});
 
 
 
@@ -216,3 +219,4 @@ button.addEventListener('click', function() {
     // 新しいURLにリダイレクト
     window.location.href = newUrl;
 });
+

@@ -120,6 +120,10 @@ br.pc {
 .flt_banner a.flt__banner--entry img {
   margin-right: 10px;
 }
+.flt_banner a.flt__banner--line {
+  box-sizing: border-box;
+  border-left: 1px solid #C7C6C2;
+}
 .flt_banner a.flt__banner--line img {
   margin-left: 10px;
 }
