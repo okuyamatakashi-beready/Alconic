@@ -208,15 +208,19 @@ $('.navigation .navigation__wrapper .navigation__content a.contact_btn').on('cli
 
 
 
-// ボタンの要素を取得
-var button = document.querySelector('.wpcf7-form-control.wpcf7-previous.send');
+document.addEventListener('DOMContentLoaded', function() {
+  // ボタンの要素を取得
+  var button = document.querySelector('.wpcf7-form-control.wpcf7-previous.send');
 
-// ボタンにイベントリスナーを追加
-button.addEventListener('click', function() {
-    // ここに新しいURLを設定
-    var newUrl = 'http://stg.alconic.llc-beready.com/#contact';
+  // 要素が存在する場合のみイベントリスナーを追加
+  if (button) {
+      button.addEventListener('click', function() {
+          // ここに新しいURLを設定
+          var newUrl = '/#entry';
 
-    // 新しいURLにリダイレクト
-    window.location.href = newUrl;
+          // 新しいURLにリダイレクト
+          window.location.href = newUrl;
+      });
+  }
 });
 
