@@ -37,8 +37,8 @@
 				</li>
 				<li>
 					<a href="#strong">
-						WHAT’S AIconic?
-						<span>アイコニックの特徴</span>
+						STRONG POINT
+						<span>アイコニックの強み</span>
 					</a>
 				</li>
 				<li>
@@ -93,7 +93,7 @@
 			</p>
 		</div>
 	</a>
-	<a href="https://line.me/R/ti/p/@395l" class="flt__banner--line" target="_blank">
+	<a href="https://line.me/R/ti/p/@395lysyn#~" class="flt__banner--line" target="_blank">
 		<div class="flex">
 			<p>
 				CONTACT
@@ -301,7 +301,7 @@
 				もし、このWEBサイトを見て、少しでも気になった方、これからの美容師としての将来を悩んでいる方、色々見て比べたいと考えている方、大歓迎です。まずはサロン見学にお越しください！「一度話を聞いてみよう。」そんな気持ちで大丈夫です。是非お気軽に、お問合せしやすい方法でご連絡ください。
 			</p>
 
-			<a href="https://line.me/R/ti/p/@395lv" class="contact__btn contact__btn--line">
+			<a href="https://line.me/R/ti/p/@395lysyn#~" class="contact__btn contact__btn--line">
 				<span>LINE</span>
 				<span>ラインでお問合せ</span>
 			</a>
@@ -494,7 +494,7 @@
 				もし、このWEBサイトを見て、少しでも気になった方、これからの美容師としての将来を悩んでいる方、色々見て比べたいと考えている方、大歓迎です。まずはサロン見学にお越しください！「一度話を聞いてみよう。」そんな気持ちで大丈夫です。是非お気軽に、お問合せしやすい方法でご連絡ください。
 			</p>
 
-			<a href="https://line.me/R/ti/p/@395lv" class="contact__btn contact__btn--line">
+			<a href="https://line.me/R/ti/p/@395lysyn#~" class="contact__btn contact__btn--line">
 				<span>LINE</span>
 				<span>ラインでお問合せ</span>
 			</a>
@@ -937,7 +937,7 @@
 				もし、このWEBサイトを見て、少しでも気になった方、これからの美容師としての将来を悩んでいる方、色々見て比べたいと考えている方、大歓迎です。まずはサロン見学にお越しください！「一度話を聞いてみよう。」そんな気持ちで大丈夫です。是非お気軽に、お問合せしやすい方法でご連絡ください。
 			</p>
 
-			<a href="https://line.me/R/ti/p/@395lv" class="contact__btn contact__btn--line">
+			<a href="https://line.me/R/ti/p/@395lysyn#~" class="contact__btn contact__btn--line">
 				<span>LINE</span>
 				<span>ラインでお問合せ</span>
 			</a>
@@ -1053,8 +1053,8 @@
 		</li>
 		<li>
 			<a href="#strong" class="flex">
-				<p>〉<span>WHAT’S AIconic?</span></p>
-				<p>アイコニックの特徴</p>
+				<p>〉<span>STRONG POINT</span></p>
+				<p>アイコニックの強み</p>
 			</a>
 		</li>
 		<li>

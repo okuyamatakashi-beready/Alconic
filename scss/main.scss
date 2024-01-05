@@ -58,12 +58,15 @@
 			}
 		}
 		&.flt__banner--line {
+			box-sizing: border-box;
+			border-left: 1px solid #C8C7C3;
 			img {
 				margin-left: 10px;
 			}
 		}
 	}
 }
+
 
 .fadeUpTrigger{
     opacity: 0;
@@ -1282,12 +1285,13 @@ p.content__text {
 			padding-top: 10px;
 			a {
 				color: #FFFFFF;
+				word-break: break-all;
 				p {
 					font-size: 13px;
 					font-weight: lighter;
 				}
 				span {
-					padding-left: 15px;
+					padding-left: 8px;
 				}
 			}
 		}
